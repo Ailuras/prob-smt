@@ -22,6 +22,180 @@ Revision History:
 
 namespace nlsat {
 
+    //hr
+    distribution::distribution(var index, bool is_GD, rational exp, rational var):
+            m_index(index), 
+            m_is_GD(is_GD),
+            m_exp(exp),
+            m_var(var) {
+    }
+
+    double distribution::rand_GD(double i, double j) { 
+        double u1, u2, r;
+        u1 = double(rand()%RANDOM_PRECISION)/RANDOM_PRECISION;
+        u2 = double(rand()%RANDOM_PRECISION)/RANDOM_PRECISION;
+        static unsigned int seed = 0; 
+        r = i + std::sqrt(j) * std::sqrt(-2.0*(std::log(u1)/std::log(std::exp(1.0)))) * cos(2*PI*u2);
+        return r;
+    }
+
+    double distribution::rand_GD() {
+        return rand_GD(m_exp.get_double(), m_var.get_double());
+    }
+
+    double distribution::Normal(double z) {
+        double temp;
+        temp = std::exp((-1)*z*z/2)/std::sqrt(2*PI);
+        return temp;
+    }
+
+    double distribution::NormSDist(const double z) {
+        // this guards against overflow
+        if (z > 6) return 1;
+        if (z < -6) return 0; 
+        static const double gamma =  0.231641900, a1  =  0.319381530,
+                            a2  = -0.356563782, a3  =  1.781477973,
+                            a4  = -1.821255978, a5  =  1.330274429; 
+        
+        double k = 1.0 / (1 + fabs(z) * gamma);
+        double n = k * (a1 + k*(a2 + k*(a3 + k*(a4 + k*a5))));
+        n = 1 - Normal(z)*n;
+        if (z < 0) return 1.0-n; 
+        return n;
+    }
+
+    double distribution::normsinv(const double p) {
+        static const double LOW  = 0.02425;
+        static const double HIGH = 0.97575;
+        static const double a[] = {
+            -3.969683028665376e+01,
+            2.209460984245205e+02,
+            -2.759285104469687e+02,
+            1.383577518672690e+02,
+            -3.066479806614716e+01,
+            2.506628277459239e+00
+        }; 
+        static const double b[] = {
+            -5.447609879822406e+01,
+            1.615858368580409e+02,
+            -1.556989798598866e+02,
+            6.680131188771972e+01,
+            -1.328068155288572e+01
+        }; 
+        static const double c[] = {
+            -7.784894002430293e-03,
+            -3.223964580411365e-01,
+            -2.400758277161838e+00,
+            -2.549732539343734e+00,
+            4.374664141464968e+00,
+            2.938163982698783e+00
+        }; 
+        static const double d[] = {
+            7.784695709041462e-03,
+            3.224671290700398e-01,
+            2.445134137142996e+00,
+            3.754408661907416e+00
+        };
+        double q, r;
+        errno = 0; 
+        
+        if (p<0 || p>1) {
+            errno = EDOM;
+            return 0.0;
+        } else if (p == 0) {
+            errno = ERANGE;
+            return -HUGE_VAL /* minus "infinity" */;
+        } else if (p == 1) {
+            errno = ERANGE;
+            return HUGE_VAL /* "infinity" */;
+        } else if (p < LOW) {
+            /* Rational approximation for lower region */
+            q = sqrt(-2*log(p));
+            return (((((c[0]*q+c[1])*q+c[2])*q+c[3])*q+c[4])*q+c[5]) / ((((d[0]*q+d[1])*q+d[2])*q+d[3])*q+1);
+        } else if (p > HIGH) {
+            /* Rational approximation for upper region */
+            q  = sqrt(-2*log(1-p));
+            return -(((((c[0]*q+c[1])*q+c[2])*q+c[3])*q+c[4])*q+c[5]) / ((((d[0]*q+d[1])*q+d[2])*q+d[3])*q+1);
+        } else {
+            /* Rational approximation for central region */
+            q = p - 0.5;
+            r = q*q;
+            return (((((a[0]*r+a[1])*r+a[2])*r+a[3])*r+a[4])*r+a[5])*q / (((((b[0]*r+b[1])*r+b[2])*r+b[3])*r+b[4])*r+1);
+        }
+    }
+    
+    double distribution::CDF(double z) {
+        return NormSDist((z-m_exp.get_double())/m_var.get_double());
+    }
+
+    double distribution::PPF(double z) {
+        return normsinv(z)*m_var.get_double()+m_exp.get_double();
+    }
+
+    void distribution::sample(anum_manager & m_am, anum & w) {
+        SASSERT(m_is_GD);
+        TRACE("hr", tout << "____peek_begin____" << "\n";); 
+        // rational result = rational(rand_GD());
+        rational result = rational("0.3");
+        TRACE("hr", tout << "sample():" << result << "\n";);
+        m_am.set(w, result.to_mpq());
+    }
+
+    void distribution::sample(anum_manager & m_am, anum & w, anum lower, anum upper) {
+        SASSERT(m_is_GD);
+        double u = double(rand()%RANDOM_PRECISION)/RANDOM_PRECISION;
+        double a = to_double(m_am, lower);
+        double b = to_double(m_am, upper);
+        rational result = rational(PPF( CDF(a) + u*(CDF(b)-CDF(a)) ));
+        TRACE("hr", tout << "sample(low, upp):" << result << "\n";);
+        m_am.set(w, result.to_mpq());
+    }
+
+    void distribution::sample(anum_manager & m_am, anum & w, bool has_low, anum bound) {
+        SASSERT(m_is_GD);
+        double u = double(rand()%RANDOM_PRECISION) / RANDOM_PRECISION;
+        if (has_low) {
+            double a = to_double(m_am, bound);
+            rational result = rational(PPF( CDF(a) + u*(1-CDF(a)) ));
+            TRACE("hr", tout << "sample(has_low, bound):" << result << "\n";);
+            m_am.set(w, result.to_mpq());
+        } else {
+            double b = to_double(m_am, bound);
+            rational result = rational(PPF( u*(CDF(b)) ));
+            TRACE("hr", tout << "sample(has_upp, bound):" << result << "\n";);
+            m_am.set(w, result.to_mpq());
+        }
+    }
+
+    double distribution::get_prob(anum_manager & m_am, anum point) {
+        double loc = to_double(m_am, point);
+        double exp = m_exp.get_double();
+        double var = m_var.get_double();
+        return std::exp((-1)*(loc-exp)*(loc-exp)/(2*var*var))/(std::sqrt(2*PI)*var);
+    }
+
+    double distribution::get_prob(anum_manager & m_am, anum lower, anum upper) {
+        double a = to_double(m_am, lower);
+        double b = to_double(m_am, upper);
+        return CDF(b) - CDF(a);
+    }
+
+    double distribution::get_prob(anum_manager & m_am, bool has_low, anum point) {
+        if (has_low) {
+            double a = to_double(m_am, point);
+            return 1 - CDF(a);
+        } else {
+            double b = to_double(m_am, point);
+            return CDF(b);
+        }
+    }
+    
+    double distribution::to_double(anum_manager & m_am, anum input) {
+        mpq one;
+        m_am.to_rational(input, one);
+        return m_am.qm().get_double(one);
+    }
+
     struct interval {
         unsigned  m_lower_open:1;
         unsigned  m_upper_open:1;
@@ -749,6 +923,85 @@ namespace nlsat {
                     irrational_i = i-1;
             }
         }
+        SASSERT(irrational_i != UINT_MAX);
+        // Last option: peek irrational witness :-(
+        SASSERT(s->m_intervals[irrational_i].m_upper_open && s->m_intervals[irrational_i+1].m_lower_open);
+        m_am.set(w, s->m_intervals[irrational_i].m_upper);
+    }
+    
+    // hr
+    void interval_set_manager::peek_in_complement(interval_set const * s, bool is_int, anum & w, distribution& distribution) {
+        SASSERT(!is_full(s));
+        if (s == nullptr) {
+            distribution.sample(m_am, w);
+            return;
+        }
+        unsigned num = num_intervals(s);
+        if (num == 1) {
+            if (s->m_intervals[0].m_lower_inf) {
+                distribution.sample(m_am, w, false, s->m_intervals[0].m_upper);
+                return;
+            } else if (s->m_intervals[0].m_upper_inf) {
+                distribution.sample(m_am, w, true, s->m_intervals[0].m_lower);
+                return;
+            }
+        }
+
+        double* prob = new double[num+1];
+        double prob_total = 0;
+        if (!s->m_intervals[0].m_lower_inf) {
+            prob[0] = distribution.get_prob(m_am, true, s->m_intervals[0].m_lower);
+            prob_total += prob[0];
+        } else prob[0] = 0;
+        if (!s->m_intervals[num-1].m_upper_inf) {
+            prob[num] = distribution.get_prob(m_am, false, s->m_intervals[num-1].m_upper);
+            prob_total += prob[num];
+        } else prob[num] = 0;
+        for (unsigned i=1; i<num; i++) {
+            if (m_am.lt(s->m_intervals[i-1].m_upper, s->m_intervals[i].m_lower)) {
+                prob[i] = distribution.get_prob(m_am, s->m_intervals[i-1].m_upper, s->m_intervals[i].m_lower);
+                prob_total += prob[i];
+            } else {
+                prob[i] = 0; // 优先考虑区间
+            }
+        }
+#define RANDOM_PRECISION 10000
+        if (prob_total != 0) {
+            float rand = (m_rand()%RANDOM_PRECISION)*prob_total/RANDOM_PRECISION;
+            unsigned index = 0;
+            while (rand>0) rand -= prob[index++];
+            index --;
+            if (index == 0) {
+                SASSERT(s->m_intervals[0].m_lower_inf);
+                distribution.sample(m_am, w, false, s->m_intervals[0].m_upper);
+                return;
+            } else if (index == num) {
+                SASSERT(s->m_intervals[num-1].m_upper_inf);
+                distribution.sample(m_am, w, true, s->m_intervals[num].m_lower);
+                return;
+            } else {
+                distribution.sample(m_am, w, s->m_intervals[index-1].m_upper, s->m_intervals[index].m_lower);
+                return;
+            }
+        }
+
+        // Try to find a rational
+        double prob_opt = 0;
+        unsigned irrational_i = UINT_MAX;
+        for (unsigned i = 1; i < num; i++) {
+            if (s->m_intervals[i-1].m_upper_open && s->m_intervals[i].m_lower_open) {
+                SASSERT(m_am.eq(s->m_intervals[i-1].m_upper, s->m_intervals[i].m_lower));
+                if (m_am.is_rational(s->m_intervals[i-1].m_upper)) {
+                    double prob_cur = distribution.get_prob(m_am, s->m_intervals[i-1].m_upper);
+                    if (prob_cur > prob_opt) {
+                        prob_opt = prob_cur;
+                        m_am.set(w, s->m_intervals[i-1].m_upper);
+                    }
+                }
+                if (irrational_i == UINT_MAX) irrational_i = i-1;
+            }
+        }
+        if (prob_opt != 0) return;
         SASSERT(irrational_i != UINT_MAX);
         // Last option: peek irrational witness :-(
         SASSERT(s->m_intervals[irrational_i].m_upper_open && s->m_intervals[irrational_i+1].m_lower_open);

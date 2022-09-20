@@ -19,14 +19,36 @@ Revision History:
 #pragma once
 
 #include "nlsat/nlsat_types.h"
+#include <math.h>
 
 namespace nlsat {
 
+    class distribution {
+    public:
+        var            m_index; //external idx
+        bool          m_is_GD; 
+        rational       m_exp;
+        rational       m_var;
+        const double PI=3.1415926;
+        const int RANDOM_PRECISION=10000;
+        distribution(var index, bool is_GD, rational exp, rational var);
+        double rand_GD(double i, double j);
+        double Normal(double z);
+        double NormSDist(const double z);
+        double normsinv(const double p);
+        double rand_GD();
+        double CDF(double z);
+        double PPF(double z);
+        void sample(anum_manager & m_am, anum & w);
+        void sample(anum_manager & m_am, anum & w, anum lower, anum upper);
+        void sample(anum_manager & m_am, anum & w, bool has_low, anum bound);
+        double get_prob(anum_manager & m_am, anum point);
+        double get_prob(anum_manager & m_am, anum lower, anum upper);
+        double get_prob(anum_manager & m_am, bool has_low, anum upper);
+        double to_double(anum_manager & m_am, anum input);
+    };
+
     class interval_set;
-
-
-
-
     class interval_set_manager {
         anum_manager &           m_am;
         small_object_allocator & m_allocator;
@@ -111,6 +133,7 @@ namespace nlsat {
            \pre !is_full(s)
         */
         void peek_in_complement(interval_set const * s, bool is_int, anum & w, bool randomize);
+        void peek_in_complement(interval_set const * s, bool is_int, anum & w, distribution& distribution);
     };
 
     typedef obj_ref<interval_set, interval_set_manager> interval_set_ref;

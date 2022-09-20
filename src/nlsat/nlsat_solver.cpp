@@ -125,6 +125,9 @@ namespace nlsat {
         var_vector             m_inv_perm;
         // m_perm:     internal -> external
         // m_inv_perm: external -> internal
+        vector<distribution>      m_distribution;
+        u_map<distribution*>      m_distribution_map;
+
         struct perm_display_var_proc : public display_var_proc {
             var_vector &             m_perm;
             display_var_proc         m_default_display_var;
@@ -250,6 +253,47 @@ namespace nlsat {
         ~imp() {
             clear();
         }
+
+
+        // hr
+        std::string get_var_name(var index) {
+            std::stringstream str;
+            m_display_var(str, index);
+            return str.str();
+        }
+
+        void init_distribution() {
+            TRACE("hr", tout << m_perm.size() << "\n";);
+            for (unsigned i=0; i<m_perm.size(); i++) {
+                TRACE("hr", tout << "internal: " << i << "<------>" << "external: " << m_perm[i] << "\n";);
+            }
+            std::fstream f;
+            f.open(".extract", std::ios::in);
+            std::string name, dst, exp, variable;
+            var index = 0;
+            std::stringstream str;
+            m_display_var(str, 0);
+            while (f >> name >> dst >> exp >> variable) {
+                TRACE("hr", tout<< get_var_name(index) << " " << name << "\n";);
+                while (get_var_name(index) != name) index++;
+                TRACE("hr", tout<< get_var_name(index) << " " << name << "\n";);
+                SASSERT(get_var_name(index) == name);
+                bool is_GD = (dst == "GD") ? true:false;
+                rational r_exp = rational(exp.c_str());
+                rational r_var = rational(variable.c_str());
+                m_distribution.push_back(distribution(index, is_GD, r_exp, r_var));
+                distribution* temp = &m_distribution[m_distribution.size()-1];
+                m_distribution_map.insert(index, temp);
+
+                TRACE("hr", tout<< m_distribution_map.size() << "\n";);
+            }
+            f.close();
+            std::string file_name = ".extract";
+            std::ofstream file_writer(file_name, std::ios_base::out);
+            TRACE("hr", tout<< m_distribution.size() << "\n";);
+        }
+
+
 
         void mk_true_bvar() {
             bool_var b = mk_bool_var();
@@ -1597,6 +1641,7 @@ namespace nlsat {
         lbool check() {
             TRACE("nlsat_smt2", display_smt2(tout););
             TRACE("nlsat_fd", tout << "is_full_dimensional: " << is_full_dimensional() << "\n";);
+            init_distribution();
             init_search();
             m_explain.set_full_dimensional(is_full_dimensional());
             bool reordered = false;

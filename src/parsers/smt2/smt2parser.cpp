@@ -440,6 +440,25 @@ namespace smt2 {
         void check_float(char const * msg) { if (!curr_is_float()) throw parser_exception(msg); }
         symbol check_identifier_next(char const * msg) { check_identifier(msg); symbol s = curr_id(); next(); return s; }
 
+        // hr
+        void check_distribution(symbol id){
+            if (curr_is_identifier()) {
+                symbol GD = curr_id();
+                if (GD == "GD") {
+                    next();
+                    rational param_1 = curr_numeral();
+                    next();
+                    rational param_2 = curr_numeral();
+                    next();
+                    std::ofstream fout;
+                    fout.open(".extract", std::ios::app);
+                    fout << id << " " << GD << " " << param_1 << " " << param_2 << std::endl;
+                    fout.close();
+                }
+            }
+            return;
+        }
+
 
         char const * m_current_file;
         void set_current_file(char const * s) { m_current_file = s; }
@@ -2500,6 +2519,7 @@ namespace smt2 {
             check_nonreserved_identifier("invalid constant declaration, symbol expected");
             symbol id = curr_id();
             next();
+            check_distribution(id);
             parse_sort("Invalid constant declaration");
             SASSERT(!sort_stack().empty());
             func_decl_ref c(m());
