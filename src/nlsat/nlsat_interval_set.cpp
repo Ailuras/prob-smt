@@ -19,6 +19,7 @@ Revision History:
 #include "nlsat/nlsat_interval_set.h"
 #include "math/polynomial/algebraic_numbers.h"
 #include "util/buffer.h"
+#include <math.h>
 
 namespace nlsat {
 

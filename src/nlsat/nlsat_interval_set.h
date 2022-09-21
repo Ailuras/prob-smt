@@ -19,7 +19,6 @@ Revision History:
 #pragma once
 
 #include "nlsat/nlsat_types.h"
-#include <math.h>
 
 namespace nlsat {
 
