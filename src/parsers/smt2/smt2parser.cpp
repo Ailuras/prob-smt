@@ -444,6 +444,7 @@ namespace smt2 {
         void check_distribution(symbol id){
             if (curr_is_identifier()) {
                 symbol GD = curr_id();
+                TRACE("hr", tout << "____GD____" << "\n";);
                 if (GD == "GD") {
                     next();
                     rational param_1 = curr_numeral();
@@ -2519,8 +2520,8 @@ namespace smt2 {
             check_nonreserved_identifier("invalid constant declaration, symbol expected");
             symbol id = curr_id();
             next();
-            check_distribution(id);
             parse_sort("Invalid constant declaration");
+            check_distribution(id);
             SASSERT(!sort_stack().empty());
             func_decl_ref c(m());
             c = m().mk_const_decl(id, sort_stack().back());

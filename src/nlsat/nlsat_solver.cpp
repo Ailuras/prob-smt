@@ -1498,7 +1498,12 @@ namespace nlsat {
         void select_witness() {
             scoped_anum w(m_am);
             SASSERT(!m_ism.is_full(m_infeasible[m_xk]));
-            m_ism.peek_in_complement(m_infeasible[m_xk], m_is_int[m_xk], w, m_randomize);
+            distribution* distribution;
+            if (m_distribution_map.find(m_perm[m_xk], distribution)) {
+                m_ism.peek_in_complement(m_infeasible[m_xk], m_is_int[m_xk], w, *distribution);
+            } else {
+                m_ism.peek_in_complement(m_infeasible[m_xk], m_is_int[m_xk], w, m_randomize);
+            }
             TRACE("nlsat", 
                   tout << "infeasible intervals: "; m_ism.display(tout, m_infeasible[m_xk]); tout << "\n";
                   tout << "assigning "; m_display_var(tout, m_xk) << "(x" << m_xk << ") -> " << w << "\n";);

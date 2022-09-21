@@ -309,7 +309,7 @@ option(Z3_BUILD_LIBZ3_SHARED "Build libz3 as a shared library if true, otherwise
 ################################################################################
 # Tracing
 ################################################################################
-option(Z3_ENABLE_TRACING_FOR_NON_DEBUG "Enable tracing in non-debug builds." OFF)
+option(Z3_ENABLE_TRACING_FOR_NON_DEBUG "Enable tracing in non-debug builds." ON)
 if (Z3_ENABLE_TRACING_FOR_NON_DEBUG)
   list(APPEND Z3_COMPONENT_CXX_DEFINES "-D_TRACE")
 else()
