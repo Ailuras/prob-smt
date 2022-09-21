@@ -51,11 +51,11 @@ namespace nlsat {
 
     double distribution::NormSDist(const double z) {
         // this guards against overflow
-        if (z > 6) return 1;
-        if (z < -6) return 0; 
+        if (z > 1000000000) return 1;
+        if (z < -1000000000) return 0; 
         static const double gamma =  0.231641900, a1  =  0.319381530,
                             a2  = -0.356563782, a3  =  1.781477973,
-                            a4  = -1.821255978, a5  =  1.330274429; 
+                            a4  = -1.821255978, a5  =  1.330274429;
         
         double k = 1.0 / (1 + fabs(z) * gamma);
         double n = k * (a1 + k*(a2 + k*(a3 + k*(a4 + k*a5))));
@@ -134,10 +134,9 @@ namespace nlsat {
 
     void distribution::sample(anum_manager & m_am, anum & w) {
         SASSERT(m_is_GD);
-        TRACE("hr", tout << "____peek_begin____" << "\n";); 
-        // rational result = rational(rand_GD());
-        rational result = rational("0.3");
-        TRACE("hr", tout << "sample():" << result << "\n";);
+        rational result = rational( to_char(rand_GD()) );
+        // rational result = rational("0.3");
+        TRACE("hr", tout << "sample():" << to_char(rand_GD()) << "\n";);
         m_am.set(w, result.to_mpq());
     }
 
@@ -146,7 +145,7 @@ namespace nlsat {
         double u = double(rand()%RANDOM_PRECISION)/RANDOM_PRECISION;
         double a = to_double(m_am, lower);
         double b = to_double(m_am, upper);
-        rational result = rational(PPF( CDF(a) + u*(CDF(b)-CDF(a)) ));
+        rational result = rational( to_char(PPF( CDF(a) + u*(CDF(b)-CDF(a)) )) );
         TRACE("hr", tout << "sample(low, upp):" << result << "\n";);
         m_am.set(w, result.to_mpq());
     }
@@ -156,12 +155,12 @@ namespace nlsat {
         double u = double(rand()%RANDOM_PRECISION) / RANDOM_PRECISION;
         if (has_low) {
             double a = to_double(m_am, bound);
-            rational result = rational(PPF( CDF(a) + u*(1-CDF(a)) ));
+            rational result = rational( to_char(PPF( CDF(a) + u*(1-CDF(a)) )) );
             TRACE("hr", tout << "sample(has_low, bound):" << result << "\n";);
             m_am.set(w, result.to_mpq());
         } else {
             double b = to_double(m_am, bound);
-            rational result = rational(PPF( u*(CDF(b)) ));
+            rational result = rational( to_char(PPF( u*(CDF(b)) )) );
             TRACE("hr", tout << "sample(has_upp, bound):" << result << "\n";);
             m_am.set(w, result.to_mpq());
         }
@@ -194,6 +193,11 @@ namespace nlsat {
         mpq one;
         m_am.to_rational(input, one);
         return m_am.qm().get_double(one);
+    }
+
+    char const* distribution::to_char(double input) {
+        std::string tmp = std::to_string(input);
+        return tmp.c_str();
     }
 
     struct interval {

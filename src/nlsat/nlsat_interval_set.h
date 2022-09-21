@@ -46,6 +46,7 @@ namespace nlsat {
         double get_prob(anum_manager & m_am, anum lower, anum upper);
         double get_prob(anum_manager & m_am, bool has_low, anum upper);
         double to_double(anum_manager & m_am, anum input);
+        char const* to_char(double input);
     };
 
     class interval_set;

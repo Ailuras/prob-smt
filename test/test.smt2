@@ -1,0 +1,8 @@
+(set-logic QF_NRA)
+(declare-const height Real GD 170 0.2)
+(declare-const weight Real GD 60 2)
+(assert (>= weight height))
+(assert (<= weight (* 2 height ) ) )
+(check-sat)
+(get-model)
+(exit)

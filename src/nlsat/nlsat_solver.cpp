@@ -274,8 +274,7 @@ namespace nlsat {
             std::stringstream str;
             m_display_var(str, 0);
             while (f >> name >> dst >> exp >> variable) {
-                TRACE("hr", tout<< get_var_name(index) << " " << name << "\n";);
-                while (get_var_name(index) != name) index++;
+                while (get_var_name(index) != name) index = (index+1)%m_perm.size();
                 TRACE("hr", tout<< get_var_name(index) << " " << name << "\n";);
                 SASSERT(get_var_name(index) == name);
                 bool is_GD = (dst == "GD") ? true:false;
@@ -284,8 +283,7 @@ namespace nlsat {
                 m_distribution.push_back(distribution(index, is_GD, r_exp, r_var));
                 distribution* temp = &m_distribution[m_distribution.size()-1];
                 m_distribution_map.insert(index, temp);
-
-                TRACE("hr", tout<< m_distribution_map.size() << "\n";);
+                index = (index+1)%m_perm.size();
             }
             f.close();
             std::string file_name = ".extract";
@@ -1499,6 +1497,10 @@ namespace nlsat {
             scoped_anum w(m_am);
             SASSERT(!m_ism.is_full(m_infeasible[m_xk]));
             distribution* distribution;
+            for (unsigned i=0; i<m_distribution_map.size(); i++) {
+                TRACE("hr", tout<< "m_perm[" << m_xk << "]: " << m_perm[m_xk] << "\n";);
+                TRACE("hr", tout<< "m_distribution_map(" << i << "): " << m_distribution_map.find(m_perm[m_xk], distribution) << "\n";);
+            }
             if (m_distribution_map.find(m_perm[m_xk], distribution)) {
                 m_ism.peek_in_complement(m_infeasible[m_xk], m_is_int[m_xk], w, *distribution);
             } else {
