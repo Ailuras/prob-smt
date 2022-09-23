@@ -25,12 +25,15 @@ namespace nlsat {
     class distribution {
     public:
         var            m_index; //external idx
-        bool          m_is_GD; 
+        bool           m_is_GD; 
         rational       m_exp;
         rational       m_var;
+        random_gen     m_rand;
         const double PI=3.1415926;
         const int RANDOM_PRECISION=10000;
-        distribution(var index, bool is_GD, rational exp, rational var);
+        distribution(var index, bool is_GD, rational exp, rational var, unsigned m_random_seed);
+        void set_seed(unsigned s) { m_rand.set_seed(s); }
+      //   void set_seed(random_gen rand) { m_rand = rand; }
         double rand_GD(double i, double j);
         double Normal(double z);
         double NormSDist(const double z);

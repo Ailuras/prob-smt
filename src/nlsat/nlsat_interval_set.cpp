@@ -24,17 +24,18 @@ Revision History:
 namespace nlsat {
 
     //hr
-    distribution::distribution(var index, bool is_GD, rational exp, rational var):
+    distribution::distribution(var index, bool is_GD, rational exp, rational var, unsigned m_random_seed):
             m_index(index), 
             m_is_GD(is_GD),
             m_exp(exp),
             m_var(var) {
+                set_seed(m_random_seed);
     }
 
     double distribution::rand_GD(double i, double j) { 
         double u1, u2, r;
-        u1 = double(rand()%RANDOM_PRECISION)/RANDOM_PRECISION;
-        u2 = double(rand()%RANDOM_PRECISION)/RANDOM_PRECISION;
+        u1 = double(m_rand()%RANDOM_PRECISION)/RANDOM_PRECISION;
+        u2 = double(m_rand()%RANDOM_PRECISION)/RANDOM_PRECISION;
         static unsigned int seed = 0; 
         r = i + std::sqrt(j) * std::sqrt(-2.0*(std::log(u1)/std::log(std::exp(1.0)))) * cos(2*PI*u2);
         return r;
@@ -143,7 +144,7 @@ namespace nlsat {
 
     void distribution::sample(anum_manager & m_am, anum & w, anum lower, anum upper) {
         SASSERT(m_is_GD);
-        double u = double(rand()%RANDOM_PRECISION)/RANDOM_PRECISION;
+        double u = double(m_rand()%RANDOM_PRECISION)/RANDOM_PRECISION;
         double a = to_double(m_am, lower);
         double b = to_double(m_am, upper);
         rational result = rational( to_char(PPF( CDF(a) + u*(CDF(b)-CDF(a)) )) );
@@ -153,7 +154,7 @@ namespace nlsat {
 
     void distribution::sample(anum_manager & m_am, anum & w, bool has_low, anum bound) {
         SASSERT(m_is_GD);
-        double u = double(rand()%RANDOM_PRECISION) / RANDOM_PRECISION;
+        double u = double(m_rand()%RANDOM_PRECISION) / RANDOM_PRECISION;
         if (has_low) {
             double a = to_double(m_am, bound);
             rational result = rational( to_char(PPF( CDF(a) + u*(1-CDF(a)) )) );

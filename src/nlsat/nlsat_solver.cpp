@@ -280,7 +280,8 @@ namespace nlsat {
                 bool is_GD = (dst == "GD") ? true:false;
                 rational r_exp = rational(exp.c_str());
                 rational r_var = rational(variable.c_str());
-                m_distribution.push_back(distribution(index, is_GD, r_exp, r_var));
+                nlsat_params p(m_ctx.m_params);
+                m_distribution.push_back(distribution(index, is_GD, r_exp, r_var, p.seed()));
                 distribution* temp = &m_distribution[m_distribution.size()-1];
                 m_distribution_map.insert(index, temp);
                 index = (index+1)%m_perm.size();
