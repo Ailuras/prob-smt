@@ -24,18 +24,21 @@ Revision History:
 namespace nlsat {
 
     //hr
-    distribution::distribution(var index, bool is_GD, rational exp, rational var, unsigned m_random_seed):
+    distribution::distribution(var index, bool is_GD, rational exp, rational var):
             m_index(index), 
             m_is_GD(is_GD),
             m_exp(exp),
             m_var(var) {
-                set_seed(m_random_seed);
+                set_seed((unsigned)time(NULL));
+                TRACE("hr", tout << (unsigned)time(NULL)%1000 << "\n";);
     }
 
     double distribution::rand_GD(double i, double j) { 
         double u1, u2, r;
         u1 = double(m_rand()%RANDOM_PRECISION)/RANDOM_PRECISION;
         u2 = double(m_rand()%RANDOM_PRECISION)/RANDOM_PRECISION;
+        // TRACE("hr", tout << "u1:" << u1 << "\n";);
+        // TRACE("hr", tout << "u2:" << u2 << "\n";);
         static unsigned int seed = 0; 
         r = i + std::sqrt(j) * std::sqrt(-2.0*(std::log(u1)/std::log(std::exp(1.0)))) * cos(2*PI*u2);
         return r;

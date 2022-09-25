@@ -31,7 +31,7 @@ namespace nlsat {
         random_gen     m_rand;
         const double PI=3.1415926;
         const int RANDOM_PRECISION=10000;
-        distribution(var index, bool is_GD, rational exp, rational var, unsigned m_random_seed);
+        distribution(var index, bool is_GD, rational exp, rational var);
         void set_seed(unsigned s) { m_rand.set_seed(s); }
       //   void set_seed(random_gen rand) { m_rand = rand; }
         double rand_GD(double i, double j);
