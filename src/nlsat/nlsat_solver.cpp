@@ -126,6 +126,7 @@ namespace nlsat {
         // m_perm:     internal -> external
         // m_inv_perm: external -> internal
         vector<distribution>      m_distribution;
+        distribution* m_distribution_UD;
         u_map<distribution*>      m_distribution_map;
 
         struct perm_display_var_proc : public display_var_proc {
@@ -267,6 +268,9 @@ namespace nlsat {
             for (unsigned i=0; i<m_perm.size(); i++) {
                 TRACE("hr", tout << "internal: " << i << "<------>" << "external: " << m_perm[i] << "\n";);
             }
+
+            m_distribution_UD = new distribution(m_perm.size(), 2, rational(0, 1), rational(1000, 1));
+
             std::fstream f;
             f.open(".extract", std::ios::in);
             std::string name, dst, exp, variable;
@@ -1503,11 +1507,14 @@ namespace nlsat {
                 TRACE("hr", tout<< "m_perm[" << m_xk << "]: " << m_perm[m_xk] << "\n";);
                 TRACE("hr", tout<< "m_distribution_map(" << i << "): " << m_distribution_map.find(m_perm[m_xk], distribution) << "\n";);
             }
-            if (m_distribution_map.find(m_perm[m_xk], distribution)) {
-                m_ism.peek_in_complement(m_infeasible[m_xk], m_is_int[m_xk], w, *distribution);
-            } else {
-                m_ism.peek_in_complement(m_infeasible[m_xk], m_is_int[m_xk], w, m_randomize);
-            }
+            // if (m_distribution_map.find(m_perm[m_xk], distribution)) {
+            //     m_ism.peek_in_complement(m_infeasible[m_xk], m_is_int[m_xk], w, *distribution);
+            // } else {
+            //     m_ism.peek_in_complement(m_infeasible[m_xk], m_is_int[m_xk], w, m_randomize);
+            // }
+
+            m_ism.peek_in_complement(m_infeasible[m_xk], m_is_int[m_xk], w, *m_distribution_UD);
+
             TRACE("nlsat", 
                   tout << "infeasible intervals: "; m_ism.display(tout, m_infeasible[m_xk]); tout << "\n";
                   tout << "assigning "; m_display_var(tout, m_xk) << "(x" << m_xk << ") -> " << w << "\n";);
