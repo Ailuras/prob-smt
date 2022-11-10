@@ -25,20 +25,20 @@ namespace nlsat {
     class distribution {
     public:
         var            m_index; //external idx
-        bool           m_is_GD; 
+        unsigned       m_type; // 1 means GD, 2 means UD
         rational       m_exp;
         rational       m_var;
         random_gen     m_rand;
         const double PI=3.1415926;
         const int RANDOM_PRECISION=10000;
-        distribution(var index, bool is_GD, rational exp, rational var);
+        distribution(var index, unsigned type, rational exp, rational var);
         void set_seed(unsigned s) { m_rand.set_seed(s); }
       //   void set_seed(random_gen rand) { m_rand = rand; }
         double rand_GD(double i, double j);
+        double rand_UD(double i, double j);
         double Normal(double z);
         double NormSDist(const double z);
         double normsinv(const double p);
-        double rand_GD();
         double CDF(double z);
         double PPF(double z);
         void sample(anum_manager & m_am, anum & w);

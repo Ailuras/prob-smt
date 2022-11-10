@@ -443,9 +443,9 @@ namespace smt2 {
         // hr
         void check_distribution(symbol id){
             if (curr_is_identifier()) {
-                symbol GD = curr_id();
-                TRACE("hr", tout << "____GD____" << "\n";);
-                if (GD == "GD") {
+                symbol distribution = curr_id();
+                TRACE("hr", tout << "____Distribution____" << "\n";);
+                if (distribution == "GD") {
                     next();
                     rational param_1 = curr_numeral();
                     next();
@@ -453,7 +453,17 @@ namespace smt2 {
                     next();
                     std::ofstream fout;
                     fout.open(".extract", std::ios::app);
-                    fout << id << " " << GD << " " << param_1 << " " << param_2 << std::endl;
+                    fout << id << " " << distribution << " " << param_1 << " " << param_2 << std::endl;
+                    fout.close();
+                }else if (distribution == "UD") {
+                    next();
+                    rational param_1 = curr_numeral();
+                    next();
+                    rational param_2 = curr_numeral();
+                    next();
+                    std::ofstream fout;
+                    fout.open(".extract", std::ios::app);
+                    fout << id << " " << distribution << " " << param_1 << " " << param_2 << std::endl;
                     fout.close();
                 }
             }

@@ -24,9 +24,9 @@ Revision History:
 namespace nlsat {
 
     //hr
-    distribution::distribution(var index, bool is_GD, rational exp, rational var):
+    distribution::distribution(var index, unsigned type, rational exp, rational var):
             m_index(index), 
-            m_is_GD(is_GD),
+            m_type(type),
             m_exp(exp),
             m_var(var) {
                 set_seed((unsigned)time(NULL));
@@ -37,15 +37,17 @@ namespace nlsat {
         double u1, u2, r;
         u1 = double(m_rand()%RANDOM_PRECISION)/RANDOM_PRECISION;
         u2 = double(m_rand()%RANDOM_PRECISION)/RANDOM_PRECISION;
-        // TRACE("hr", tout << "u1:" << u1 << "\n";);
-        // TRACE("hr", tout << "u2:" << u2 << "\n";);
-        static unsigned int seed = 0; 
+        // static unsigned int seed = 0; 
         r = i + std::sqrt(j) * std::sqrt(-2.0*(std::log(u1)/std::log(std::exp(1.0)))) * cos(2*PI*u2);
         return r;
     }
 
-    double distribution::rand_GD() {
-        return rand_GD(m_exp.get_double(), m_var.get_double());
+    double distribution::rand_UD(double i, double j) { 
+        double u1, u2, r;
+        u1 = m_rand() % 2 == 0 ? 1 : -1;
+        u2 = double(m_rand()%RANDOM_PRECISION)*j/RANDOM_PRECISION;
+        r = i + u1*u2;
+        return r;
     }
 
     double distribution::Normal(double z) {
@@ -136,62 +138,81 @@ namespace nlsat {
     double distribution::PPF(double z) {
         return normsinv(z)*m_var.get_double()+m_exp.get_double();
     }
-
     void distribution::sample(anum_manager & m_am, anum & w) {
-        SASSERT(m_is_GD);
-        rational result = rational( to_char(rand_GD()) );
-        // rational result = rational("0.3");
-        TRACE("hr", tout << "sample():" << to_char(rand_GD()) << "\n";);
+        SASSERT(m_type != 0);
+        rational result;
+        if (m_type == 1) result = rational( to_char(rand_GD(m_exp.get_double(), m_var.get_double())) );
+        else if (m_type == 2) result = rational( to_char(rand_UD(m_exp.get_double(), m_var.get_double())) );
+        // TRACE("hr", tout << "sample():" << to_char(rand()) << "\n";);
         m_am.set(w, result.to_mpq());
     }
-
     void distribution::sample(anum_manager & m_am, anum & w, anum lower, anum upper) {
-        SASSERT(m_is_GD);
+        SASSERT(m_type != 0);
         double u = double(m_rand()%RANDOM_PRECISION)/RANDOM_PRECISION;
         double a = to_double(m_am, lower);
         double b = to_double(m_am, upper);
-        rational result = rational( to_char(PPF( CDF(a) + u*(CDF(b)-CDF(a)) )) );
+        rational result;
+        if (m_type == 1) result = rational( to_char(PPF( CDF(a) + u*(CDF(b)-CDF(a)) )) );
+        else if (m_type == 2) result = rational( to_char(double(m_rand()%RANDOM_PRECISION)*(b-a)/RANDOM_PRECISION + a) );
         TRACE("hr", tout << "sample(low, upp):" << result << "\n";);
         m_am.set(w, result.to_mpq());
     }
-
     void distribution::sample(anum_manager & m_am, anum & w, bool has_low, anum bound) {
-        SASSERT(m_is_GD);
+        SASSERT(m_type != 0);
         double u = double(m_rand()%RANDOM_PRECISION) / RANDOM_PRECISION;
         if (has_low) {
             double a = to_double(m_am, bound);
-            rational result = rational( to_char(PPF( CDF(a) + u*(1-CDF(a)) )) );
+            rational result;
+            if (m_type == 1) result = rational( to_char(PPF( CDF(a) + u*(1-CDF(a)) )) );
+            else if (m_type == 2) 
+                result = rational( to_char(a + double(m_rand()%RANDOM_PRECISION)*m_var.get_double()/RANDOM_PRECISION) );
             TRACE("hr", tout << "sample(has_low, bound):" << result << "\n";);
             m_am.set(w, result.to_mpq());
         } else {
             double b = to_double(m_am, bound);
-            rational result = rational( to_char(PPF( u*(CDF(b)) )) );
+            rational result;
+            if (m_type == 1) result = rational( to_char(PPF( u*(CDF(b)) )) );
+            else if (m_type == 2) 
+                result = rational( to_char(b - double(m_rand()%RANDOM_PRECISION)*m_var.get_double()/RANDOM_PRECISION) );
             TRACE("hr", tout << "sample(has_upp, bound):" << result << "\n";);
             m_am.set(w, result.to_mpq());
         }
     }
-
     double distribution::get_prob(anum_manager & m_am, anum point) {
-        double loc = to_double(m_am, point);
-        double exp = m_exp.get_double();
-        double var = m_var.get_double();
-        return std::exp((-1)*(loc-exp)*(loc-exp)/(2*var*var))/(std::sqrt(2*PI)*var);
+        double result;
+        if (m_type == 1) {
+            double loc = to_double(m_am, point);
+            double exp = m_exp.get_double();
+            double var = m_var.get_double();
+            result = std::exp((-1)*(loc-exp)*(loc-exp)/(2*var*var))/(std::sqrt(2*PI)*var);
+        } else if (m_type == 2) {
+            double var = m_var.get_double();
+            result = 1/(2*var);
+        }
+        return result;
     }
 
     double distribution::get_prob(anum_manager & m_am, anum lower, anum upper) {
+        double result;
         double a = to_double(m_am, lower);
         double b = to_double(m_am, upper);
-        return CDF(b) - CDF(a);
+        if (m_type == 1) result = CDF(b) - CDF(a);
+        else if (m_type == 2) result = b-a;
+        return result;
     }
 
     double distribution::get_prob(anum_manager & m_am, bool has_low, anum point) {
+        double result;
         if (has_low) {
             double a = to_double(m_am, point);
-            return 1 - CDF(a);
+            if (m_type == 1) return 1 - CDF(a);
+            else if (m_type == 2) result = m_var.get_double();
         } else {
             double b = to_double(m_am, point);
-            return CDF(b);
+            if (m_type == 1) return CDF(b);
+            else if (m_type == 2) result = m_var.get_double();
         }
+        return result;
     }
     
     double distribution::to_double(anum_manager & m_am, anum input) {

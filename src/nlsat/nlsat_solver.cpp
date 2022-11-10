@@ -277,10 +277,12 @@ namespace nlsat {
                 while (get_var_name(index) != name) index = (index+1)%m_perm.size();
                 TRACE("hr", tout<< get_var_name(index) << " " << name << "\n";);
                 SASSERT(get_var_name(index) == name);
-                bool is_GD = (dst == "GD") ? true:false;
+                unsigned type = 0;
+                if (dst == "GD") type = 1;
+                else if (dst == "UD") type = 2;
                 rational r_exp = rational(exp.c_str());
                 rational r_var = rational(variable.c_str());
-                m_distribution.push_back(distribution(index, is_GD, r_exp, r_var));
+                m_distribution.push_back(distribution(index, type, r_exp, r_var));
                 distribution* temp = &m_distribution[m_distribution.size()-1];
                 m_distribution_map.insert(index, temp);
                 index = (index+1)%m_perm.size();
