@@ -264,10 +264,10 @@ namespace nlsat {
         }
 
         void init_distribution() {
-            TRACE("hr", tout << m_perm.size() << "\n";);
-            for (unsigned i=0; i<m_perm.size(); i++) {
-                TRACE("hr", tout << "internal: " << i << "<------>" << "external: " << m_perm[i] << "\n";);
-            }
+            // TRACE("hr", tout << m_perm.size() << "\n";);
+            // for (unsigned i=0; i<m_perm.size(); i++) {
+            //     TRACE("hr", tout << "internal: " << i << "<------>" << "external: " << m_perm[i] << "\n";);
+            // }
 
             m_distribution_UD = new distribution(m_perm.size(), 2, rational(0, 1), rational(1000, 1));
 
@@ -1513,7 +1513,8 @@ namespace nlsat {
             //     m_ism.peek_in_complement(m_infeasible[m_xk], m_is_int[m_xk], w, m_randomize);
             // }
 
-            m_ism.peek_in_complement(m_infeasible[m_xk], m_is_int[m_xk], w, *m_distribution_UD);
+            // m_ism.peek_in_complement(m_infeasible[m_xk], m_is_int[m_xk], w, *m_distribution_UD);
+            m_ism.peek_in_complement(m_infeasible[m_xk], m_is_int[m_xk], w, m_randomize);
 
             TRACE("nlsat", 
                   tout << "infeasible intervals: "; m_ism.display(tout, m_infeasible[m_xk]); tout << "\n";

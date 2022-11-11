@@ -30,7 +30,6 @@ namespace nlsat {
             m_exp(exp),
             m_var(var) {
                 set_seed((unsigned)time(NULL));
-                TRACE("hr", tout << (unsigned)time(NULL)%1000 << "\n";);
     }
 
     double distribution::rand_GD(double i, double j) { 
@@ -154,7 +153,7 @@ namespace nlsat {
         rational result;
         if (m_type == 1) result = rational( to_char(PPF( CDF(a) + u*(CDF(b)-CDF(a)) )) );
         else if (m_type == 2) result = rational( to_char(double(m_rand()%RANDOM_PRECISION)*(b-a)/RANDOM_PRECISION + a) );
-        TRACE("hr", tout << "sample(low, upp):" << result << "\n";);
+        TRACE("hr", tout << "sample(low, upp): " << a << ":" << b << "->" << result << "\n";);
         m_am.set(w, result.to_mpq());
     }
     void distribution::sample(anum_manager & m_am, anum & w, bool has_low, anum bound) {
@@ -162,6 +161,7 @@ namespace nlsat {
         double u = double(m_rand()%RANDOM_PRECISION) / RANDOM_PRECISION;
         if (has_low) {
             double a = to_double(m_am, bound);
+            TRACE("hr", tout << a << "\n";);
             rational result;
             if (m_type == 1) result = rational( to_char(PPF( CDF(a) + u*(1-CDF(a)) )) );
             else if (m_type == 2) 
@@ -216,9 +216,10 @@ namespace nlsat {
     }
     
     double distribution::to_double(anum_manager & m_am, anum input) {
-        mpq one;
-        m_am.to_rational(input, one);
-        return m_am.qm().get_double(one);
+        std::stringstream str;
+        m_am.display_decimal(str, input);
+        TRACE("hr", tout << "display_decimal: " << atof(str.str().c_str()););
+        return atof(str.str().c_str());
     }
 
     char const* distribution::to_char(double input) {
@@ -969,10 +970,10 @@ namespace nlsat {
         unsigned num = num_intervals(s);
         if (num == 1) {
             if (s->m_intervals[0].m_lower_inf) {
-                distribution.sample(m_am, w, false, s->m_intervals[0].m_upper);
+                distribution.sample(m_am, w, true, s->m_intervals[0].m_upper);
                 return;
             } else if (s->m_intervals[0].m_upper_inf) {
-                distribution.sample(m_am, w, true, s->m_intervals[0].m_lower);
+                distribution.sample(m_am, w, false, s->m_intervals[0].m_lower);
                 return;
             }
         }
@@ -980,11 +981,11 @@ namespace nlsat {
         double* prob = new double[num+1];
         double prob_total = 0;
         if (!s->m_intervals[0].m_lower_inf) {
-            prob[0] = distribution.get_prob(m_am, true, s->m_intervals[0].m_lower);
+            prob[0] = distribution.get_prob(m_am, false, s->m_intervals[0].m_lower);
             prob_total += prob[0];
         } else prob[0] = 0;
         if (!s->m_intervals[num-1].m_upper_inf) {
-            prob[num] = distribution.get_prob(m_am, false, s->m_intervals[num-1].m_upper);
+            prob[num] = distribution.get_prob(m_am, true, s->m_intervals[num-1].m_upper);
             prob_total += prob[num];
         } else prob[num] = 0;
         for (unsigned i=1; i<num; i++) {
@@ -997,17 +998,17 @@ namespace nlsat {
         }
 #define RANDOM_PRECISION 10000
         if (prob_total != 0) {
-            float rand = (m_rand()%RANDOM_PRECISION)*prob_total/RANDOM_PRECISION;
+            double rand = (m_rand()%RANDOM_PRECISION)*prob_total/RANDOM_PRECISION;
             unsigned index = 0;
             while (rand>0) rand -= prob[index++];
             index --;
             if (index == 0) {
-                SASSERT(s->m_intervals[0].m_lower_inf);
-                distribution.sample(m_am, w, false, s->m_intervals[0].m_upper);
+                SASSERT(!s->m_intervals[0].m_lower_inf);
+                distribution.sample(m_am, w, false, s->m_intervals[0].m_lower);
                 return;
             } else if (index == num) {
-                SASSERT(s->m_intervals[num-1].m_upper_inf);
-                distribution.sample(m_am, w, true, s->m_intervals[num].m_lower);
+                SASSERT(!s->m_intervals[num-1].m_upper_inf);
+                distribution.sample(m_am, w, true, s->m_intervals[num].m_upper);
                 return;
             } else {
                 distribution.sample(m_am, w, s->m_intervals[index-1].m_upper, s->m_intervals[index].m_lower);
