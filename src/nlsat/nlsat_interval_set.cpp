@@ -190,7 +190,7 @@ namespace nlsat {
             result = std::exp((-1)*(loc-exp)*(loc-exp)/(2*var*var))/(std::sqrt(2*PI)*var);
         } else if (m_type == 2) {
             double var = m_var.get_double();
-            result = 0;
+            result = 0.0001;
         }
         return result;
     }
