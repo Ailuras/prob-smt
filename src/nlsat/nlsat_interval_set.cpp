@@ -150,6 +150,10 @@ namespace nlsat {
         double u = double(m_rand()%RANDOM_PRECISION)/RANDOM_PRECISION;
         double a = to_double(m_am, lower);
         double b = to_double(m_am, upper);
+        // if (a >= b) {
+        //     m_am.set(w, lower);
+        //     return;
+        // }
         rational result;
         if (m_type == 1) result = rational( to_char(PPF( CDF(a) + u*(CDF(b)-CDF(a)) )) );
         else if (m_type == 2) result = rational( to_char(double(m_rand()%RANDOM_PRECISION)*(b-a)/RANDOM_PRECISION + a) );
@@ -161,7 +165,6 @@ namespace nlsat {
         double u = double(m_rand()%RANDOM_PRECISION) / RANDOM_PRECISION;
         if (has_low) {
             double a = to_double(m_am, bound);
-            TRACE("hr", tout << a << "\n";);
             rational result;
             if (m_type == 1) result = rational( to_char(PPF( CDF(a) + u*(1-CDF(a)) )) );
             else if (m_type == 2) 
@@ -187,7 +190,7 @@ namespace nlsat {
             result = std::exp((-1)*(loc-exp)*(loc-exp)/(2*var*var))/(std::sqrt(2*PI)*var);
         } else if (m_type == 2) {
             double var = m_var.get_double();
-            result = 1/(2*var);
+            result = 0;
         }
         return result;
     }
@@ -1008,7 +1011,7 @@ namespace nlsat {
                 return;
             } else if (index == num) {
                 SASSERT(!s->m_intervals[num-1].m_upper_inf);
-                distribution.sample(m_am, w, true, s->m_intervals[num].m_upper);
+                distribution.sample(m_am, w, true, s->m_intervals[num-1].m_upper);
                 return;
             } else {
                 distribution.sample(m_am, w, s->m_intervals[index-1].m_upper, s->m_intervals[index].m_lower);
