@@ -1041,7 +1041,92 @@ namespace nlsat {
         SASSERT(s->m_intervals[irrational_i].m_upper_open && s->m_intervals[irrational_i+1].m_lower_open);
         m_am.set(w, s->m_intervals[irrational_i].m_upper);
     }
+    
+//     void interval_set_manager::peek_in_complement(interval_set const * s, bool is_int, anum & w) {
+//         SASSERT(!is_full(s));
+//         if (s == nullptr) {
+//             int num = m_rand() % 2 == 0 ? 1 : -1;
+// #define MAX_RANDOM_DEN_K 4
+//             int den_k = (m_rand() % MAX_RANDOM_DEN_K);
+//             int den   = is_int ? 1 : (1 << den_k);
+//             scoped_mpq _w(m_am.qm());
+//             m_am.qm().set(_w, num, den);
+//             m_am.set(w, _w);
+//             return;
+//         }
 
+//         unsigned num = num_intervals(s);
+//         if (!s->m_intervals[0].m_lower_inf) {
+//             m_am.int_lt(s->m_intervals[0].m_lower, w);
+//             return;
+//         }
+//         if (!s->m_intervals[num-1].m_upper_inf) {
+//             if (m_rand()%2 == 0) 
+//                 m_am.int_gt(s->m_intervals[num-1].m_upper, w);
+//             return;
+//         }
+        
+//         double* prob = new double[num+1];
+//         double prob_total = 0;
+//         if (!s->m_intervals[0].m_lower_inf) {
+//             prob[0] = distribution.get_prob(m_am, false, s->m_intervals[0].m_lower);
+//             prob_total += prob[0];
+//         } else prob[0] = 0;
+//         if (!s->m_intervals[num-1].m_upper_inf) {
+//             prob[num] = distribution.get_prob(m_am, true, s->m_intervals[num-1].m_upper);
+//             prob_total += prob[num];
+//         } else prob[num] = 0;
+//         for (unsigned i=1; i<num; i++) {
+//             if (m_am.lt(s->m_intervals[i-1].m_upper, s->m_intervals[i].m_lower)) {
+//                 prob[i] = distribution.get_prob(m_am, s->m_intervals[i-1].m_upper, s->m_intervals[i].m_lower);
+//                 prob_total += prob[i];
+//             } else {
+//                 prob[i] = 0; // 优先考虑区间
+//             }
+//         }
+// #define RANDOM_PRECISION 10000
+//         if (prob_total != 0) {
+//             double rand = (m_rand()%RANDOM_PRECISION)*prob_total/RANDOM_PRECISION;
+//             unsigned index = 0;
+//             while (rand>0) rand -= prob[index++];
+//             index --;
+//             if (index == 0) {
+//                 SASSERT(!s->m_intervals[0].m_lower_inf);
+//                 distribution.sample(m_am, w, false, s->m_intervals[0].m_lower);
+//                 return;
+//             } else if (index == num) {
+//                 SASSERT(!s->m_intervals[num-1].m_upper_inf);
+//                 distribution.sample(m_am, w, true, s->m_intervals[num-1].m_upper);
+//                 return;
+//             } else {
+//                 distribution.sample(m_am, w, s->m_intervals[index-1].m_upper, s->m_intervals[index].m_lower);
+//                 return;
+//             }
+//         }
+
+//         // Try to find a rational
+//         double prob_opt = 0;
+//         unsigned irrational_i = UINT_MAX;
+//         for (unsigned i = 1; i < num; i++) {
+//             if (s->m_intervals[i-1].m_upper_open && s->m_intervals[i].m_lower_open) {
+//                 SASSERT(m_am.eq(s->m_intervals[i-1].m_upper, s->m_intervals[i].m_lower));
+//                 if (m_am.is_rational(s->m_intervals[i-1].m_upper)) {
+//                     double prob_cur = distribution.get_prob(m_am, s->m_intervals[i-1].m_upper);
+//                     if (prob_cur > prob_opt) {
+//                         prob_opt = prob_cur;
+//                         m_am.set(w, s->m_intervals[i-1].m_upper);
+//                     }
+//                 }
+//                 if (irrational_i == UINT_MAX) irrational_i = i-1;
+//             }
+//         }
+//         if (prob_opt != 0) return;
+//         SASSERT(irrational_i != UINT_MAX);
+//         // Last option: peek irrational witness :-(
+//         SASSERT(s->m_intervals[irrational_i].m_upper_open && s->m_intervals[irrational_i+1].m_lower_open);
+//         m_am.set(w, s->m_intervals[irrational_i].m_upper);
+//     }
+    
     std::ostream& interval_set_manager::display(std::ostream & out, interval_set const * s) const {
         if (s == nullptr) {
             out << "{}";

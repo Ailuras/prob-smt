@@ -135,6 +135,7 @@ namespace nlsat {
            
            \pre !is_full(s)
         */
+		// void peek_in_complement(interval_set const * s, bool is_int, anum & w);
         void peek_in_complement(interval_set const * s, bool is_int, anum & w, bool randomize);
         void peek_in_complement(interval_set const * s, bool is_int, anum & w, distribution& distribution);
     };
