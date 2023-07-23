@@ -1,0 +1,6888 @@
+sat
+(
+  (define-fun y () Real
+    (- (/ 667131.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 3183.0 8000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 57987.0 500000.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 93031.0 100000.0)))
+  (define-fun x () Real
+    (/ 896291.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 531653.0 1000000.0)))
+  (define-fun x () Real
+    (/ 499599.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 156123.0 250000.0)))
+  (define-fun x () Real
+    (- (/ 59721.0 100000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 603579.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 59721.0 100000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 13057.0 31250.0)))
+  (define-fun x () Real
+    (/ 51077.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 164139.0 250000.0)))
+  (define-fun x () Real
+    (/ 40669.0 62500.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 275937.0 500000.0)))
+  (define-fun x () Real
+    (/ 544821.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 544319.0 1000000.0)))
+  (define-fun x () Real
+    (/ 543853.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 21607.0 31250.0)))
+  (define-fun x () Real
+    (/ 172737.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 682863.0 1000000.0)))
+  (define-fun x () Real
+    (/ 676241.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 266679.0 500000.0)))
+  (define-fun x () Real
+    (/ 266341.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 352503.0 500000.0)))
+  (define-fun x () Real
+    (/ 676717.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 102771.0 250000.0)))
+  (define-fun x () Real
+    (/ 194939.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 480237.0 1000000.0)))
+  (define-fun x () Real
+    (/ 119157.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 606991.0 1000000.0)))
+  (define-fun x () Real
+    (/ 59721.0 100000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 534039.0 1000000.0)))
+  (define-fun x () Real
+    (/ 255589.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 28861.0 62500.0)))
+  (define-fun x () Real
+    (/ 444691.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 37437.0 62500.0)))
+  (define-fun x () Real
+    (/ 584091.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 456161.0 1000000.0)))
+  (define-fun x () Real
+    (/ 13709.0 31250.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 107149.0 200000.0)))
+  (define-fun x () Real
+    (/ 242591.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 38939.0 100000.0)))
+  (define-fun x () Real
+    (/ 351597.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 30327.0 250000.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 58413.0 500000.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 106113.0 200000.0)))
+  (define-fun x () Real
+    (/ 99303.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 51523.0 125000.0)))
+  (define-fun x () Real
+    (/ 401901.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 284093.0 500000.0)))
+  (define-fun x () Real
+    (/ 107319.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 54411.0 125000.0)))
+  (define-fun x () Real
+    (/ 402629.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 218773.0 500000.0)))
+  (define-fun x () Real
+    (/ 428401.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 68739.0 125000.0)))
+  (define-fun x () Real
+    (/ 135291.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 550023.0 1000000.0)))
+  (define-fun x () Real
+    (/ 13197.0 25000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 244221.0 500000.0)))
+  (define-fun x () Real
+    (/ 444983.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 386583.0 1000000.0)))
+  (define-fun x () Real
+    (/ 382801.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 817757.0 1000000.0)))
+  (define-fun x () Real
+    (/ 161803.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 244361.0 500000.0)))
+  (define-fun x () Real
+    (/ 483583.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 59779.0 100000.0)))
+  (define-fun x () Real
+    (/ 573983.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 446947.0 1000000.0)))
+  (define-fun x () Real
+    (/ 21433.0 50000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 484023.0 1000000.0)))
+  (define-fun x () Real
+    (/ 241423.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 333507.0 500000.0)))
+  (define-fun x () Real
+    (/ 328289.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 506079.0 1000000.0)))
+  (define-fun x () Real
+    (/ 248897.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 540891.0 1000000.0)))
+  (define-fun x () Real
+    (/ 538181.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 304253.0 500000.0)))
+  (define-fun x () Real
+    (/ 303569.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 26941.0 40000.0)))
+  (define-fun x () Real
+    (/ 159273.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 187931.0 500000.0)))
+  (define-fun x () Real
+    (/ 45483.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 70487.0 125000.0)))
+  (define-fun x () Real
+    (/ 53139.0 100000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 411943.0 1000000.0)))
+  (define-fun x () Real
+    (/ 50023.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 547591.0 1000000.0)))
+  (define-fun x () Real
+    (/ 526371.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 465541.0 1000000.0)))
+  (define-fun x () Real
+    (/ 224881.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 46657.0 200000.0)))
+  (define-fun x () Real
+    (- (/ 101769.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 160049.0 500000.0)))
+  (define-fun x () Real
+    (/ 13667.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 118007.0 200000.0)))
+  (define-fun x () Real
+    (/ 270481.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 233819.0 1000000.0)))
+  (define-fun x () Real
+    (/ 95777.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 101333.0 200000.0)))
+  (define-fun x () Real
+    (/ 236289.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 173901.0 250000.0)))
+  (define-fun x () Real
+    (/ 15841.0 31250.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 960307.0 1000000.0)))
+  (define-fun x () Real
+    (/ 416083.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 379011.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 334841.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 108733.0 250000.0)))
+  (define-fun x () Real
+    (- (/ 112707.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 104803.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 95297.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    (/ 46193.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 65943.0 125000.0)))
+  (define-fun x () Real
+    (/ 262693.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 63499.0 100000.0)))
+  (define-fun x () Real
+    (/ 310641.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 493737.0 1000000.0)))
+  (define-fun x () Real
+    (/ 477837.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 106469.0 200000.0)))
+  (define-fun x () Real
+    (/ 243401.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 40739.0 100000.0)))
+  (define-fun x () Real
+    (/ 11439.0 31250.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 412217.0 1000000.0)))
+  (define-fun x () Real
+    (/ 409827.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 630957.0 1000000.0)))
+  (define-fun x () Real
+    (/ 314421.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 127091.0 200000.0)))
+  (define-fun x () Real
+    (/ 612027.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 24377.0 200000.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 81059.0 1000000.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 436959.0 1000000.0)))
+  (define-fun x () Real
+    (/ 4121.0 10000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 483049.0 1000000.0)))
+  (define-fun x () Real
+    (/ 455953.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 460989.0 1000000.0)))
+  (define-fun x () Real
+    (/ 437321.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 47911.0 100000.0)))
+  (define-fun x () Real
+    (/ 455677.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 465817.0 1000000.0)))
+  (define-fun x () Real
+    (/ 9059.0 20000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 516537.0 1000000.0)))
+  (define-fun x () Real
+    (/ 509817.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 281813.0 500000.0)))
+  (define-fun x () Real
+    (/ 552009.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 107731.0 200000.0)))
+  (define-fun x () Real
+    (/ 125727.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 50419.0 125000.0)))
+  (define-fun x () Real
+    (/ 394407.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 275191.0 500000.0)))
+  (define-fun x () Real
+    (/ 274171.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 630363.0 1000000.0)))
+  (define-fun x () Real
+    (/ 155491.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 8298.0 15625.0)))
+  (define-fun x () Real
+    (/ 520471.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 140567.0 250000.0)))
+  (define-fun x () Real
+    (/ 273791.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 495399.0 1000000.0)))
+  (define-fun x () Real
+    (/ 482541.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 4209.0 8000.0)))
+  (define-fun x () Real
+    (/ 25247.0 50000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 477.0 1000.0)))
+  (define-fun x () Real
+    (/ 28367.0 62500.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 490529.0 1000000.0)))
+  (define-fun x () Real
+    (/ 454679.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 411071.0 1000000.0)))
+  (define-fun x () Real
+    (/ 405017.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 592907.0 1000000.0)))
+  (define-fun x () Real
+    (/ 573983.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 233409.0 500000.0)))
+  (define-fun x () Real
+    (/ 45337.0 100000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 253749.0 500000.0)))
+  (define-fun x () Real
+    (/ 505969.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 131251.0 200000.0)))
+  (define-fun x () Real
+    (/ 641387.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 478549.0 1000000.0)))
+  (define-fun x () Real
+    (/ 233553.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 52193.0 100000.0)))
+  (define-fun x () Real
+    (/ 517281.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 299463.0 500000.0)))
+  (define-fun x () Real
+    (/ 72043.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 489961.0 1000000.0)))
+  (define-fun x () Real
+    (/ 108529.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 189069.0 500000.0)))
+  (define-fun x () Real
+    (/ 175343.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 18459.0 40000.0)))
+  (define-fun x () Real
+    (/ 57477.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 324779.0 500000.0)))
+  (define-fun x () Real
+    (/ 32107.0 50000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 532791.0 1000000.0)))
+  (define-fun x () Real
+    (/ 263927.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 289679.0 500000.0)))
+  (define-fun x () Real
+    (/ 571081.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 274103.0 500000.0)))
+  (define-fun x () Real
+    (/ 528193.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 46531.0 100000.0)))
+  (define-fun x () Real
+    (/ 455511.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 599857.0 1000000.0)))
+  (define-fun x () Real
+    (/ 265787.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 78797.0 250000.0)))
+  (define-fun x () Real
+    (/ 291863.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 5013.0 10000.0)))
+  (define-fun x () Real
+    (/ 490309.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 526379.0 1000000.0)))
+  (define-fun x () Real
+    (/ 20677.0 40000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 532603.0 1000000.0)))
+  (define-fun x () Real
+    (/ 262577.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 56179.0 100000.0)))
+  (define-fun x () Real
+    (/ 108479.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 42963.0 62500.0)))
+  (define-fun x () Real
+    (/ 342539.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 121003.0 200000.0)))
+  (define-fun x () Real
+    (/ 601271.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 588023.0 1000000.0)))
+  (define-fun x () Real
+    (/ 290373.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 112529.0 200000.0)))
+  (define-fun x () Real
+    (/ 53689.0 100000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 54367.0 125000.0)))
+  (define-fun x () Real
+    (/ 213337.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 582021.0 1000000.0)))
+  (define-fun x () Real
+    (/ 548991.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 457551.0 1000000.0)))
+  (define-fun x () Real
+    (/ 197269.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 97391.0 250000.0)))
+  (define-fun x () Real
+    (/ 172093.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 40757.0 100000.0)))
+  (define-fun x () Real
+    (/ 202193.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 319771.0 500000.0)))
+  (define-fun x () Real
+    (/ 613637.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 25929.0 62500.0)))
+  (define-fun x () Real
+    (/ 102951.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 618141.0 1000000.0)))
+  (define-fun x () Real
+    (/ 307469.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 303211.0 500000.0)))
+  (define-fun x () Real
+    (/ 589087.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 465557.0 1000000.0)))
+  (define-fun x () Real
+    (/ 459843.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 286943.0 500000.0)))
+  (define-fun x () Real
+    (/ 142513.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 610713.0 1000000.0)))
+  (define-fun x () Real
+    (/ 145659.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 41473.0 100000.0)))
+  (define-fun x () Real
+    (/ 40789.0 100000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 573821.0 1000000.0)))
+  (define-fun x () Real
+    (/ 565293.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 142499.0 250000.0)))
+  (define-fun x () Real
+    (/ 105321.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 366727.0 1000000.0)))
+  (define-fun x () Real
+    (/ 90823.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 127103.0 200000.0)))
+  (define-fun x () Real
+    (/ 614841.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 450381.0 1000000.0)))
+  (define-fun x () Real
+    (/ 437199.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 103971.0 200000.0)))
+  (define-fun x () Real
+    (/ 63809.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 105339.0 200000.0)))
+  (define-fun x () Real
+    (/ 526683.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 19873.0 25000.0)))
+  (define-fun x () Real
+    (/ 194553.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 20377.0 40000.0)))
+  (define-fun x () Real
+    (/ 87391.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 158183.0 500000.0)))
+  (define-fun x () Real
+    (/ 77263.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 144823.0 250000.0)))
+  (define-fun x () Real
+    (/ 288559.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 115633.0 250000.0)))
+  (define-fun x () Real
+    (/ 81509.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 183153.0 500000.0)))
+  (define-fun x () Real
+    (/ 90107.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 292941.0 500000.0)))
+  (define-fun x () Real
+    (/ 291371.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 7499.0 12500.0)))
+  (define-fun x () Real
+    (/ 593653.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 582437.0 1000000.0)))
+  (define-fun x () Real
+    (/ 109287.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 195339.0 500000.0)))
+  (define-fun x () Real
+    (/ 384037.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 62121.0 100000.0)))
+  (define-fun x () Real
+    (/ 71373.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 46603.0 125000.0)))
+  (define-fun x () Real
+    (/ 331609.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 433367.0 1000000.0)))
+  (define-fun x () Real
+    (/ 209887.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 525939.0 1000000.0)))
+  (define-fun x () Real
+    (/ 510951.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 49853.0 100000.0)))
+  (define-fun x () Real
+    (/ 2433.0 5000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 10301.0 20000.0)))
+  (define-fun x () Real
+    (/ 510673.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 146647.0 250000.0)))
+  (define-fun x () Real
+    (/ 581059.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 557751.0 1000000.0)))
+  (define-fun x () Real
+    (/ 556923.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 678313.0 1000000.0)))
+  (define-fun x () Real
+    (/ 665561.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 98797.0 200000.0)))
+  (define-fun x () Real
+    (/ 478427.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 277773.0 500000.0)))
+  (define-fun x () Real
+    (/ 61087.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 44063.0 125000.0)))
+  (define-fun x () Real
+    (/ 76829.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 53389.0 125000.0)))
+  (define-fun x () Real
+    (/ 207901.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 14101.0 25000.0)))
+  (define-fun x () Real
+    (/ 526761.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 38609.0 250000.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 19489.0 40000.0)))
+  (define-fun x () Real
+    (/ 22817.0 50000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 489361.0 1000000.0)))
+  (define-fun x () Real
+    (/ 211221.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 354627.0 1000000.0)))
+  (define-fun x () Real
+    (/ 16321.0 50000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 112847.0 200000.0)))
+  (define-fun x () Real
+    (/ 280083.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 47751.0 1000000.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 68179.0 500000.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 18597.0 62500.0)))
+  (define-fun x () Real
+    (/ 38253.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 21489.0 50000.0)))
+  (define-fun x () Real
+    (- (/ 16631.0 100000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 943261.0 1000000.0)))
+  (define-fun x () Real
+    (/ 13877.0 15625.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 674061.0 1000000.0)))
+  (define-fun x () Real
+    (/ 66703.0 100000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 136249.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 4187.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 12167.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 4187.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 328331.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 2851.0 100000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 15429.0 25000.0)))
+  (define-fun x () Real
+    (/ 91631.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 410847.0 500000.0)))
+  (define-fun x () Real
+    (/ 400381.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 603871.0 1000000.0)))
+  (define-fun x () Real
+    (/ 44091.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 299417.0 500000.0)))
+  (define-fun x () Real
+    (/ 486489.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 94573.0 200000.0)))
+  (define-fun x () Real
+    (- (/ 384089.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 320069.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 208519.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 198717.0 500000.0)))
+  (define-fun x () Real
+    (/ 269493.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 271433.0 500000.0)))
+  (define-fun x () Real
+    (/ 5933.0 12500.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 44897.0 200000.0)))
+  (define-fun x () Real
+    (/ 125259.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 39259.0 125000.0)))
+  (define-fun x () Real
+    (/ 6027.0 20000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 14403.0 125000.0)))
+  (define-fun x () Real
+    (/ 25779.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 21613.0 50000.0)))
+  (define-fun x () Real
+    (/ 25779.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 886693.0 1000000.0)))
+  (define-fun x () Real
+    (/ 407143.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 573073.0 1000000.0)))
+  (define-fun x () Real
+    (/ 172717.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 50937.0 200000.0)))
+  (define-fun x () Real
+    (/ 28327.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 181071.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 112309.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1509.0 12500.0)))
+  (define-fun x () Real
+    (/ 6261.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 528021.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 18747.0 250000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 36723.0 250000.0)))
+  (define-fun x () Real
+    (- (/ 18747.0 250000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 17579.0 40000.0)))
+  (define-fun x () Real
+    (/ 379203.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 76543.0 200000.0)))
+  (define-fun x () Real
+    (/ 134411.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 108709.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 57277.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 47073.0 200000.0)))
+  (define-fun x () Real
+    (- (/ 143183.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 156667.0 1000000.0)))
+  (define-fun x () Real
+    (/ 30429.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 238909.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 69299.0 250000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 2503.0 8000.0)))
+  (define-fun x () Real
+    (- (/ 5439.0 20000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 601269.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 65263.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 65063.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 2833.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 387241.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 185679.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 182611.0 250000.0)))
+  (define-fun x () Real
+    (- (/ 185679.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 136893.0 250000.0)))
+  (define-fun x () Real
+    (/ 136409.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 31907.0 500000.0)))
+  (define-fun x () Real
+    (/ 16281.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 49203.0 200000.0)))
+  (define-fun x () Real
+    (/ 31603.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 661237.0 1000000.0)))
+  (define-fun x () Real
+    (/ 19029.0 31250.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 230941.0 500000.0)))
+  (define-fun x () Real
+    (/ 33277.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 53441.0 100000.0)))
+  (define-fun x () Real
+    (/ 253001.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 249893.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 123347.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1757.0 31250.0)))
+  (define-fun x () Real
+    (- (/ 2447.0 125000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 68451.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 9817.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 19149.0 100000.0)))
+  (define-fun x () Real
+    (- (/ 118961.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 53501.0 250000.0)))
+  (define-fun x () Real
+    (- (/ 4473.0 50000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 462811.0 1000000.0)))
+  (define-fun x () Real
+    (/ 428401.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 193577.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 6791.0 50000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 106773.0 250000.0)))
+  (define-fun x () Real
+    (/ 416159.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 468163.0 1000000.0)))
+  (define-fun x () Real
+    (/ 226573.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 491767.0 500000.0)))
+  (define-fun x () Real
+    (/ 32623.0 50000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 194427.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 17469.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 282407.0 500000.0)))
+  (define-fun x () Real
+    (/ 553449.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 22587.0 25000.0)))
+  (define-fun x () Real
+    (/ 111279.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 30729.0 250000.0)))
+  (define-fun x () Real
+    (- (/ 38553.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 88601.0 500000.0)))
+  (define-fun x () Real
+    (/ 21899.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 127337.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 120191.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 43869.0 200000.0)))
+  (define-fun x () Real
+    (/ 136517.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 47257.0 100000.0)))
+  (define-fun x () Real
+    (- (/ 114669.0 250000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 106227.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 8539.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 280887.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 61163.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 95411.0 1000000.0)))
+  (define-fun x () Real
+    (/ 1331.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 784227.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 77789.0 100000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 185197.0 250000.0)))
+  (define-fun x () Real
+    (/ 141721.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 12217.0 20000.0)))
+  (define-fun x () Real
+    (/ 606561.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 412779.0 1000000.0)))
+  (define-fun x () Real
+    (/ 305593.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 188347.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 354697.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 148907.0 500000.0)))
+  (define-fun x () Real
+    (/ 59169.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 19883.0 62500.0)))
+  (define-fun x () Real
+    (/ 59169.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 909921.0 1000000.0)))
+  (define-fun x () Real
+    (/ 695791.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 48873.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 17091.0 200000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 117619.0 250000.0)))
+  (define-fun x () Real
+    (/ 82909.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 375269.0 1000000.0)))
+  (define-fun x () Real
+    (/ 44497.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 248119.0 500000.0)))
+  (define-fun x () Real
+    (/ 19711.0 40000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 25113.0 40000.0)))
+  (define-fun x () Real
+    (/ 298887.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 399257.0 1000000.0)))
+  (define-fun x () Real
+    (/ 396699.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 4543.0 500000.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 176459.0 1000000.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 33483.0 125000.0)))
+  (define-fun x () Real
+    (- (/ 99721.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 489393.0 500000.0)))
+  (define-fun x () Real
+    (/ 746659.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 781407.0 1000000.0)))
+  (define-fun x () Real
+    (/ 2659.0 31250.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 236771.0 1000000.0)))
+  (define-fun x () Real
+    (/ 21051.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 479887.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 91487.0 100000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 399939.0 500000.0)))
+  (define-fun x () Real
+    (/ 793993.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 228391.0 1000000.0)))
+  (define-fun x () Real
+    (/ 62609.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 176667.0 500000.0)))
+  (define-fun x () Real
+    (/ 11213.0 40000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 109171.0 250000.0)))
+  (define-fun x () Real
+    (/ 20541.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 325703.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 128269.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 25273.0 125000.0)))
+  (define-fun x () Real
+    (- (/ 14023.0 125000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 405603.0 1000000.0)))
+  (define-fun x () Real
+    (/ 135929.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 382489.0 1000000.0)))
+  (define-fun x () Real
+    (/ 135929.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 131661.0 200000.0)))
+  (define-fun x () Real
+    (- (/ 619369.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 631191.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 616851.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 223977.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 55779.0 125000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 240759.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 7413.0 15625.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 625331.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 623401.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 464547.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 205101.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 256023.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 121287.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 506213.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 448603.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 359.0 5000.0)))
+  (define-fun x () Real
+    (- (/ 11279.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 56363.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 25801.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 590251.0 1000000.0)))
+  (define-fun x () Real
+    (/ 132603.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 141047.0 500000.0)))
+  (define-fun x () Real
+    (/ 30053.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 681201.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 187827.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 15717.0 62500.0)))
+  (define-fun x () Real
+    (- (/ 187827.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 867693.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 415553.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 971933.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 955623.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 175763.0 250000.0)))
+  (define-fun x () Real
+    (- (/ 658827.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 264609.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 247613.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 320007.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 247613.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 340811.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 614769.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 10324.0 15625.0)))
+  (define-fun x () Real
+    (- (/ 631263.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 156529.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 35851.0 250000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 137027.0 500000.0)))
+  (define-fun x () Real
+    (/ 21353.0 100000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 311901.0 1000000.0)))
+  (define-fun x () Real
+    (/ 3563.0 50000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 213433.0 500000.0)))
+  (define-fun x () Real
+    (/ 21353.0 100000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 156627.0 200000.0)))
+  (define-fun x () Real
+    (/ 387189.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 471761.0 1000000.0)))
+  (define-fun x () Real
+    (/ 298647.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 486537.0 1000000.0)))
+  (define-fun x () Real
+    (/ 35703.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 43203.0 62500.0)))
+  (define-fun x () Real
+    (/ 80491.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 293839.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 30111.0 200000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 84593.0 250000.0)))
+  (define-fun x () Real
+    (- (/ 190427.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 393269.0 500000.0)))
+  (define-fun x () Real
+    (/ 387357.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 650141.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 566039.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 317277.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 9107.0 15625.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 31489.0 250000.0)))
+  (define-fun x () Real
+    (/ 2087.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 802683.0 1000000.0)))
+  (define-fun x () Real
+    (/ 657591.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 446963.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 107909.0 250000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 119969.0 500000.0)))
+  (define-fun x () Real
+    (/ 89199.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 15511.0 200000.0)))
+  (define-fun x () Real
+    (- (/ 33579.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 153761.0 500000.0)))
+  (define-fun x () Real
+    (/ 255361.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 279369.0 1000000.0)))
+  (define-fun x () Real
+    (/ 255361.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 443823.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 785897.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 16767.0 250000.0)))
+  (define-fun x () Real
+    (- (/ 4011.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 5747.0 25000.0)))
+  (define-fun x () Real
+    (/ 59043.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 5239.0 12500.0)))
+  (define-fun x () Real
+    (- (/ 4011.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 126587.0 500000.0)))
+  (define-fun x () Real
+    (/ 139873.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 974903.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 464271.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 189373.0 1000000.0)))
+  (define-fun x () Real
+    (/ 139873.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 501127.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 474581.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 208273.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 43773.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 230383.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 327903.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 969.0 3125.0)))
+  (define-fun x () Real
+    (/ 24309.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 74543.0 200000.0)))
+  (define-fun x () Real
+    (- (/ 327903.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 2539.0 15625.0)))
+  (define-fun x () Real
+    (/ 25359.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 59437.0 62500.0)))
+  (define-fun x () Real
+    (- (/ 432699.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 130499.0 500000.0)))
+  (define-fun x () Real
+    (/ 134943.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 224339.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 159477.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 51781.0 100000.0)))
+  (define-fun x () Real
+    (/ 246249.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 558549.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 51169.0 125000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 739311.0 1000000.0)))
+  (define-fun x () Real
+    (/ 126319.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 12119.0 200000.0)))
+  (define-fun x () Real
+    (/ 11479.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 151799.0 500000.0)))
+  (define-fun x () Real
+    (/ 14647.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 10193.0 20000.0)))
+  (define-fun x () Real
+    (/ 257089.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 29239.0 500000.0)))
+  (define-fun x () Real
+    (/ 11957.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 757337.0 1000000.0)))
+  (define-fun x () Real
+    (/ 51947.0 100000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 52109.0 200000.0)))
+  (define-fun x () Real
+    (- (/ 38919.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 102981.0 200000.0)))
+  (define-fun x () Real
+    (- (/ 1059.0 2500.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 304591.0 500000.0)))
+  (define-fun x () Real
+    (/ 518497.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 8151.0 12500.0)))
+  (define-fun x () Real
+    (/ 570309.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 267987.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 415409.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 281587.0 1000000.0)))
+  (define-fun x () Real
+    (/ 28841.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 557459.0 1000000.0)))
+  (define-fun x () Real
+    (/ 132971.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 836533.0 1000000.0)))
+  (define-fun x () Real
+    (/ 611313.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 652791.0 1000000.0)))
+  (define-fun x () Real
+    (/ 311061.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 6653.0 50000.0)))
+  (define-fun x () Real
+    (/ 36327.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 41087.0 100000.0)))
+  (define-fun x () Real
+    (/ 241401.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 9323.0 40000.0)))
+  (define-fun x () Real
+    (/ 111491.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 64893.0 125000.0)))
+  (define-fun x () Real
+    (- (/ 505593.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 306073.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 13981.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 40391.0 100000.0)))
+  (define-fun x () Real
+    (/ 3037.0 10000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 227173.0 500000.0)))
+  (define-fun x () Real
+    (/ 162931.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 359063.0 1000000.0)))
+  (define-fun x () Real
+    (/ 38981.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 185779.0 200000.0)))
+  (define-fun x () Real
+    (/ 442923.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 962579.0 1000000.0)))
+  (define-fun x () Real
+    (/ 236143.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 36203.0 250000.0)))
+  (define-fun x () Real
+    (/ 139067.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 4809.0 20000.0)))
+  (define-fun x () Real
+    (/ 139067.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 86651.0 100000.0)))
+  (define-fun x () Real
+    (- (/ 19941.0 200000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 482263.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 228569.0 250000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 205009.0 1000000.0)))
+  (define-fun x () Real
+    (/ 33659.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 86851.0 200000.0)))
+  (define-fun x () Real
+    (- (/ 206783.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 151441.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 69.0 6250.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 199641.0 1000000.0)))
+  (define-fun x () Real
+    (/ 48601.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 729519.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 266839.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 57487.0 100000.0)))
+  (define-fun x () Real
+    (- (/ 1601.0 20000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 110837.0 250000.0)))
+  (define-fun x () Real
+    (- (/ 83617.0 200000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 127109.0 200000.0)))
+  (define-fun x () Real
+    (- (/ 266839.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 162003.0 500000.0)))
+  (define-fun x () Real
+    (/ 643.0 31250.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 120119.0 125000.0)))
+  (define-fun x () Real
+    (- (/ 952601.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 388629.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 2283.0 6250.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 158089.0 200000.0)))
+  (define-fun x () Real
+    (- (/ 280099.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 478057.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 475331.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 617333.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 475331.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 107889.0 1000000.0)))
+  (define-fun x () Real
+    (/ 2039.0 20000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 506479.0 1000000.0)))
+  (define-fun x () Real
+    (/ 2039.0 20000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 55383.0 100000.0)))
+  (define-fun x () Real
+    (- (/ 8541.0 125000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 37887.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 36233.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 329077.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 51481.0 100000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 307227.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 157197.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 283563.0 1000000.0)))
+  (define-fun x () Real
+    (/ 10691.0 50000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 269433.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 157197.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 450103.0 500000.0)))
+  (define-fun x () Real
+    (/ 837361.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 200553.0 250000.0)))
+  (define-fun x () Real
+    (/ 747273.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 185209.0 200000.0)))
+  (define-fun x () Real
+    (- (/ 90121.0 100000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 944629.0 1000000.0)))
+  (define-fun x () Real
+    (/ 629051.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 13357.0 15625.0)))
+  (define-fun x () Real
+    (- (/ 709087.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 651299.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 145197.0 250000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 63629.0 100000.0)))
+  (define-fun x () Real
+    (- (/ 145197.0 250000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 122981.0 250000.0)))
+  (define-fun x () Real
+    (- (/ 466871.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 168393.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 151281.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 96059.0 250000.0)))
+  (define-fun x () Real
+    (- (/ 151281.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 481061.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 151281.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 21699.0 40000.0)))
+  (define-fun x () Real
+    (- (/ 13247.0 25000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 7137.0 12500.0)))
+  (define-fun x () Real
+    (- (/ 265537.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 360663.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 10541.0 31250.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 548841.0 1000000.0)))
+  (define-fun x () Real
+    (/ 548409.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 430843.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 417997.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 59629.0 500000.0)))
+  (define-fun x () Real
+    (/ 269.0 8000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 191999.0 200000.0)))
+  (define-fun x () Real
+    (- (/ 68507.0 200000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 375177.0 500000.0)))
+  (define-fun x () Real
+    (/ 1629.0 31250.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 223297.0 500000.0)))
+  (define-fun x () Real
+    (/ 373459.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 34891.0 40000.0)))
+  (define-fun x () Real
+    (/ 196583.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 153697.0 500000.0)))
+  (define-fun x () Real
+    (/ 1629.0 31250.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 993709.0 1000000.0)))
+  (define-fun x () Real
+    (/ 981509.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 64069.0 100000.0)))
+  (define-fun x () Real
+    (/ 531907.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 119547.0 500000.0)))
+  (define-fun x () Real
+    (/ 137753.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 134403.0 250000.0)))
+  (define-fun x () Real
+    (- (/ 254363.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 120659.0 250000.0)))
+  (define-fun x () Real
+    (/ 2591.0 12500.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 10909.0 31250.0)))
+  (define-fun x () Real
+    (/ 2591.0 12500.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 7769.0 40000.0)))
+  (define-fun x () Real
+    (- (/ 15921.0 100000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 76419.0 250000.0)))
+  (define-fun x () Real
+    (- (/ 4961.0 40000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 161823.0 500000.0)))
+  (define-fun x () Real
+    (/ 170661.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 493553.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 96091.0 100000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 342063.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 77497.0 250000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 248063.0 250000.0)))
+  (define-fun x () Real
+    (- (/ 96091.0 100000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 968449.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 96091.0 100000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 100831.0 250000.0)))
+  (define-fun x () Real
+    (/ 19401.0 50000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 301357.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 551853.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 123387.0 500000.0)))
+  (define-fun x () Real
+    (/ 121551.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 538577.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 5517.0 200000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 45743.0 125000.0)))
+  (define-fun x () Real
+    (/ 23121.0 100000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 102027.0 125000.0)))
+  (define-fun x () Real
+    (- (/ 5517.0 200000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 250511.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 111489.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 541049.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 111489.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 6933.0 200000.0)))
+  (define-fun x () Real
+    (/ 16869.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 300189.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 21017.0 125000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 36143.0 200000.0)))
+  (define-fun x () Real
+    (- (/ 161519.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 2421.0 8000.0)))
+  (define-fun x () Real
+    (- (/ 161519.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 272729.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 21017.0 125000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 683919.0 1000000.0)))
+  (define-fun x () Real
+    (/ 51667.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 597549.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 348553.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 273277.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 53203.0 100000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 529501.0 1000000.0)))
+  (define-fun x () Real
+    (/ 8683.0 20000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 490461.0 500000.0)))
+  (define-fun x () Real
+    (/ 8683.0 20000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 422167.0 1000000.0)))
+  (define-fun x () Real
+    (/ 199913.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 55563.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 803.0 20000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 172509.0 200000.0)))
+  (define-fun x () Real
+    (- (/ 105643.0 125000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 38659.0 50000.0)))
+  (define-fun x () Real
+    (- (/ 348029.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 48751.0 100000.0)))
+  (define-fun x () Real
+    (- (/ 79101.0 250000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 339767.0 1000000.0)))
+  (define-fun x () Real
+    (/ 68619.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 15571.0 125000.0)))
+  (define-fun x () Real
+    (- (/ 54313.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 166021.0 200000.0)))
+  (define-fun x () Real
+    (- (/ 245981.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 94943.0 200000.0)))
+  (define-fun x () Real
+    (/ 374191.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 206187.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 10149.0 31250.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 242847.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 305113.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 608979.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 289299.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 871571.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 9751.0 40000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 69983.0 125000.0)))
+  (define-fun x () Real
+    (- (/ 14913.0 31250.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 208651.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 51949.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 546327.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 14913.0 31250.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 513059.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 14913.0 31250.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 417227.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 48671.0 125000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 374881.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 685753.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 95873.0 100000.0)))
+  (define-fun x () Real
+    (/ 32701.0 100000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 76857.0 200000.0)))
+  (define-fun x () Real
+    (- (/ 170889.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 86813.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 77033.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 577889.0 1000000.0)))
+  (define-fun x () Real
+    (/ 137063.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 26541.0 62500.0)))
+  (define-fun x () Real
+    (/ 137063.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 73993.0 100000.0)))
+  (define-fun x () Real
+    (/ 118209.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 15709.0 31250.0)))
+  (define-fun x () Real
+    (- (/ 12819.0 31250.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 19323.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 1103.0 200000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 32173.0 100000.0)))
+  (define-fun x () Real
+    (/ 114411.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 177983.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 31319.0 125000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 410449.0 1000000.0)))
+  (define-fun x () Real
+    (/ 1577.0 50000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 176899.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 1581.0 8000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 4739.0 10000.0)))
+  (define-fun x () Real
+    (/ 212151.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 542749.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 373411.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 868799.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 420639.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 909379.0 1000000.0)))
+  (define-fun x () Real
+    (/ 11771.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 472351.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 266377.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 157281.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 57377.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 7389.0 20000.0)))
+  (define-fun x () Real
+    (- (/ 130403.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 32591.0 125000.0)))
+  (define-fun x () Real
+    (/ 2393.0 20000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 513301.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 295473.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 246367.0 1000000.0)))
+  (define-fun x () Real
+    (/ 29437.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 201807.0 250000.0)))
+  (define-fun x () Real
+    (/ 304417.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 80921.0 125000.0)))
+  (define-fun x () Real
+    (/ 11003.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 255529.0 500000.0)))
+  (define-fun x () Real
+    (/ 227871.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 26873.0 50000.0)))
+  (define-fun x () Real
+    (- (/ 253801.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 404629.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 3801.0 200000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 303391.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 15537.0 62500.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 183221.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 351897.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 262297.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 65631.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 878439.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 831773.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 54831.0 62500.0)))
+  (define-fun x () Real
+    (- (/ 831773.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 856499.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 10407.0 12500.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 44073.0 125000.0)))
+  (define-fun x () Real
+    (- (/ 60713.0 200000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 106689.0 250000.0)))
+  (define-fun x () Real
+    (- (/ 164453.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 171991.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 164453.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 164397.0 250000.0)))
+  (define-fun x () Real
+    (- (/ 577973.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 494447.0 1000000.0)))
+  (define-fun x () Real
+    (/ 226829.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 129907.0 1000000.0)))
+  (define-fun x () Real
+    (/ 6423.0 62500.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 148521.0 1000000.0)))
+  (define-fun x () Real
+    (/ 6423.0 62500.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 39397.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 439.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 308117.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 161149.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 113709.0 125000.0)))
+  (define-fun x () Real
+    (- (/ 807747.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 260053.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 497647.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 104093.0 250000.0)))
+  (define-fun x () Real
+    (- (/ 55961.0 200000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 940411.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 807747.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 265781.0 1000000.0)))
+  (define-fun x () Real
+    (/ 29771.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 142133.0 500000.0)))
+  (define-fun x () Real
+    (/ 25077.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 384597.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 43437.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 67289.0 200000.0)))
+  (define-fun x () Real
+    (/ 318049.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 480587.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 465939.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 409147.0 1000000.0)))
+  (define-fun x () Real
+    (/ 354789.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 252927.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 177529.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 437447.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 57361.0 200000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 244149.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 209217.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 11937.0 40000.0)))
+  (define-fun x () Real
+    (/ 98013.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 91273.0 250000.0)))
+  (define-fun x () Real
+    (- (/ 9213.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 59403.0 62500.0)))
+  (define-fun x () Real
+    (- (/ 5701.0 25000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 480161.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 5701.0 25000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 123291.0 250000.0)))
+  (define-fun x () Real
+    (/ 482753.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 647891.0 1000000.0)))
+  (define-fun x () Real
+    (/ 278181.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 850763.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 118543.0 200000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 306801.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 515361.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 581443.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 575843.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 25693.0 40000.0)))
+  (define-fun x () Real
+    (- (/ 130349.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 490117.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 26701.0 250000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 65827.0 100000.0)))
+  (define-fun x () Real
+    (/ 163723.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 599713.0 1000000.0)))
+  (define-fun x () Real
+    (/ 290861.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 49571.0 100000.0)))
+  (define-fun x () Real
+    (/ 18291.0 40000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 48129.0 100000.0)))
+  (define-fun x () Real
+    (/ 395711.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 174039.0 500000.0)))
+  (define-fun x () Real
+    (/ 9181.0 31250.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 99803.0 250000.0)))
+  (define-fun x () Real
+    (/ 396913.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 3239.0 5000.0)))
+  (define-fun x () Real
+    (/ 632491.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 4247.0 8000.0)))
+  (define-fun x () Real
+    (/ 465541.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 173139.0 500000.0)))
+  (define-fun x () Real
+    (/ 4963.0 15625.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 92987.0 200000.0)))
+  (define-fun x () Real
+    (/ 231863.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 332023.0 500000.0)))
+  (define-fun x () Real
+    (/ 131453.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 273827.0 500000.0)))
+  (define-fun x () Real
+    (/ 266513.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 100379.0 200000.0)))
+  (define-fun x () Real
+    (/ 485233.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 237141.0 500000.0)))
+  (define-fun x () Real
+    (/ 236931.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 29577.0 40000.0)))
+  (define-fun x () Real
+    (/ 701983.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 524841.0 1000000.0)))
+  (define-fun x () Real
+    (/ 86869.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 164239.0 1000000.0)))
+  (define-fun x () Real
+    (/ 156839.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 628541.0 1000000.0)))
+  (define-fun x () Real
+    (/ 304151.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 463241.0 1000000.0)))
+  (define-fun x () Real
+    (/ 440583.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 15439.0 31250.0)))
+  (define-fun x () Real
+    (/ 459489.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 415541.0 1000000.0)))
+  (define-fun x () Real
+    (/ 408387.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 570529.0 1000000.0)))
+  (define-fun x () Real
+    (/ 5621.0 10000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 8439.0 15625.0)))
+  (define-fun x () Real
+    (/ 263979.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 281711.0 500000.0)))
+  (define-fun x () Real
+    (/ 502733.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 320093.0 1000000.0)))
+  (define-fun x () Real
+    (/ 79799.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 698179.0 1000000.0)))
+  (define-fun x () Real
+    (/ 34353.0 50000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 521793.0 1000000.0)))
+  (define-fun x () Real
+    (/ 488217.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 419589.0 1000000.0)))
+  (define-fun x () Real
+    (/ 405449.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 256157.0 500000.0)))
+  (define-fun x () Real
+    (/ 25511.0 50000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 156979.0 250000.0)))
+  (define-fun x () Real
+    (/ 78067.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 61557.0 100000.0)))
+  (define-fun x () Real
+    (/ 584771.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 445001.0 1000000.0)))
+  (define-fun x () Real
+    (/ 198071.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 191219.0 500000.0)))
+  (define-fun x () Real
+    (/ 380067.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 645023.0 1000000.0)))
+  (define-fun x () Real
+    (/ 25319.0 40000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 267231.0 500000.0)))
+  (define-fun x () Real
+    (/ 488141.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 187893.0 500000.0)))
+  (define-fun x () Real
+    (/ 90839.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 53431.0 100000.0)))
+  (define-fun x () Real
+    (/ 528689.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 584329.0 1000000.0)))
+  (define-fun x () Real
+    (/ 562161.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 440159.0 1000000.0)))
+  (define-fun x () Real
+    (/ 219329.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 8353.0 12500.0)))
+  (define-fun x () Real
+    (/ 649467.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 322977.0 500000.0)))
+  (define-fun x () Real
+    (/ 9701.0 15625.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 210421.0 500000.0)))
+  (define-fun x () Real
+    (/ 103573.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 595521.0 1000000.0)))
+  (define-fun x () Real
+    (/ 141823.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 106621.0 250000.0)))
+  (define-fun x () Real
+    (/ 82033.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 263623.0 500000.0)))
+  (define-fun x () Real
+    (/ 496841.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 44067.0 100000.0)))
+  (define-fun x () Real
+    (/ 103879.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 250539.0 500000.0)))
+  (define-fun x () Real
+    (/ 14187.0 31250.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 398943.0 1000000.0)))
+  (define-fun x () Real
+    (/ 369649.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 467289.0 1000000.0)))
+  (define-fun x () Real
+    (/ 56049.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 516011.0 1000000.0)))
+  (define-fun x () Real
+    (/ 118983.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 25627.0 62500.0)))
+  (define-fun x () Real
+    (/ 385883.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 472749.0 1000000.0)))
+  (define-fun x () Real
+    (/ 29043.0 62500.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 545653.0 1000000.0)))
+  (define-fun x () Real
+    (/ 545043.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 691893.0 1000000.0)))
+  (define-fun x () Real
+    (/ 679911.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 503807.0 1000000.0)))
+  (define-fun x () Real
+    (/ 60289.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 50967.0 100000.0)))
+  (define-fun x () Real
+    (/ 456643.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 47533.0 125000.0)))
+  (define-fun x () Real
+    (/ 176061.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 15351.0 31250.0)))
+  (define-fun x () Real
+    (/ 456891.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 425907.0 1000000.0)))
+  (define-fun x () Real
+    (/ 51219.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 501837.0 1000000.0)))
+  (define-fun x () Real
+    (/ 497819.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 120851.0 200000.0)))
+  (define-fun x () Real
+    (/ 36753.0 62500.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 30269.0 62500.0)))
+  (define-fun x () Real
+    (/ 466709.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 60689.0 125000.0)))
+  (define-fun x () Real
+    (/ 119831.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 141301.0 250000.0)))
+  (define-fun x () Real
+    (/ 140487.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 18573.0 31250.0)))
+  (define-fun x () Real
+    (/ 148423.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 341819.0 500000.0)))
+  (define-fun x () Real
+    (/ 673017.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 60609.0 125000.0)))
+  (define-fun x () Real
+    (/ 230491.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 455477.0 1000000.0)))
+  (define-fun x () Real
+    (/ 449847.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 288119.0 500000.0)))
+  (define-fun x () Real
+    (/ 572411.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 58363.0 100000.0)))
+  (define-fun x () Real
+    (/ 116499.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 656537.0 1000000.0)))
+  (define-fun x () Real
+    (/ 324277.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 553569.0 1000000.0)))
+  (define-fun x () Real
+    (/ 104253.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 6548.0 15625.0)))
+  (define-fun x () Real
+    (/ 403071.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 503991.0 1000000.0)))
+  (define-fun x () Real
+    (/ 9999.0 20000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 73467.0 125000.0)))
+  (define-fun x () Real
+    (/ 293711.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 706259.0 1000000.0)))
+  (define-fun x () Real
+    (/ 701409.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 285877.0 500000.0)))
+  (define-fun x () Real
+    (/ 69109.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 92463.0 200000.0)))
+  (define-fun x () Real
+    (/ 91433.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 291553.0 500000.0)))
+  (define-fun x () Real
+    (/ 577321.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 71847.0 125000.0)))
+  (define-fun x () Real
+    (/ 277087.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 106569.0 200000.0)))
+  (define-fun x () Real
+    (/ 89581.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 140613.0 500000.0)))
+  (define-fun x () Real
+    (/ 69493.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 634157.0 1000000.0)))
+  (define-fun x () Real
+    (/ 315293.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 583499.0 1000000.0)))
+  (define-fun x () Real
+    (/ 580677.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 603531.0 1000000.0)))
+  (define-fun x () Real
+    (/ 600271.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 604447.0 1000000.0)))
+  (define-fun x () Real
+    (/ 117907.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 250627.0 500000.0)))
+  (define-fun x () Real
+    (/ 237281.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 57627.0 125000.0)))
+  (define-fun x () Real
+    (/ 435079.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 479529.0 1000000.0)))
+  (define-fun x () Real
+    (/ 223261.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 442039.0 1000000.0)))
+  (define-fun x () Real
+    (/ 416869.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 45679.0 100000.0)))
+  (define-fun x () Real
+    (/ 453621.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 305989.0 500000.0)))
+  (define-fun x () Real
+    (/ 303859.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 478597.0 1000000.0)))
+  (define-fun x () Real
+    (/ 471651.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 7327.0 12500.0)))
+  (define-fun x () Real
+    (/ 69359.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 208977.0 500000.0)))
+  (define-fun x () Real
+    (/ 400101.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 524471.0 1000000.0)))
+  (define-fun x () Real
+    (/ 490687.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 410547.0 1000000.0)))
+  (define-fun x () Real
+    (/ 101037.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 57311.0 100000.0)))
+  (define-fun x () Real
+    (/ 114081.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 635069.0 1000000.0)))
+  (define-fun x () Real
+    (/ 120763.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 81173.0 200000.0)))
+  (define-fun x () Real
+    (/ 39061.0 100000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 268833.0 500000.0)))
+  (define-fun x () Real
+    (/ 253261.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 41811.0 100000.0)))
+  (define-fun x () Real
+    (/ 82123.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 564437.0 1000000.0)))
+  (define-fun x () Real
+    (/ 139623.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 568363.0 1000000.0)))
+  (define-fun x () Real
+    (/ 277261.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 546317.0 1000000.0)))
+  (define-fun x () Real
+    (/ 30433.0 62500.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 17081.0 50000.0)))
+  (define-fun x () Real
+    (/ 326871.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 523509.0 1000000.0)))
+  (define-fun x () Real
+    (/ 522163.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 659237.0 1000000.0)))
+  (define-fun x () Real
+    (/ 129221.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 31153.0 62500.0)))
+  (define-fun x () Real
+    (/ 9567.0 20000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 99973.0 200000.0)))
+  (define-fun x () Real
+    (/ 29013.0 62500.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 27049.0 62500.0)))
+  (define-fun x () Real
+    (/ 403471.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 446977.0 1000000.0)))
+  (define-fun x () Real
+    (/ 220157.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 29357.0 50000.0)))
+  (define-fun x () Real
+    (/ 281141.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 472587.0 1000000.0)))
+  (define-fun x () Real
+    (/ 212959.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 408349.0 1000000.0)))
+  (define-fun x () Real
+    (/ 189097.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 18809.0 40000.0)))
+  (define-fun x () Real
+    (/ 88639.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 22843.0 50000.0)))
+  (define-fun x () Real
+    (/ 220157.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 245787.0 500000.0)))
+  (define-fun x () Real
+    (/ 244953.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 34163.0 50000.0)))
+  (define-fun x () Real
+    (/ 79831.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 61171.0 125000.0)))
+  (define-fun x () Real
+    (/ 334439.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 60917.0 250000.0)))
+  (define-fun x () Real
+    (/ 196433.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 285417.0 500000.0)))
+  (define-fun x () Real
+    (/ 33417.0 62500.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 406933.0 1000000.0)))
+  (define-fun x () Real
+    (/ 385979.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 252919.0 500000.0)))
+  (define-fun x () Real
+    (/ 478607.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 109267.0 250000.0)))
+  (define-fun x () Real
+    (/ 86403.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 123223.0 200000.0)))
+  (define-fun x () Real
+    (/ 36373.0 62500.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 214423.0 500000.0)))
+  (define-fun x () Real
+    (/ 76709.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 200719.0 500000.0)))
+  (define-fun x () Real
+    (/ 393527.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 563153.0 1000000.0)))
+  (define-fun x () Real
+    (/ 278683.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 588441.0 1000000.0)))
+  (define-fun x () Real
+    (/ 55657.0 100000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 400969.0 1000000.0)))
+  (define-fun x () Real
+    (/ 79493.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 321807.0 500000.0)))
+  (define-fun x () Real
+    (/ 304513.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 420489.0 1000000.0)))
+  (define-fun x () Real
+    (/ 188219.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 205167.0 500000.0)))
+  (define-fun x () Real
+    (/ 49883.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 28299.0 50000.0)))
+  (define-fun x () Real
+    (/ 105989.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 396939.0 1000000.0)))
+  (define-fun x () Real
+    (/ 77491.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 137929.0 250000.0)))
+  (define-fun x () Real
+    (/ 272591.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 56623.0 100000.0)))
+  (define-fun x () Real
+    (/ 109883.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 253343.0 500000.0)))
+  (define-fun x () Real
+    (/ 469321.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 232777.0 500000.0)))
+  (define-fun x () Real
+    (/ 198221.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 354591.0 1000000.0)))
+  (define-fun x () Real
+    (/ 41161.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 101931.0 200000.0)))
+  (define-fun x () Real
+    (/ 473239.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 80941.0 200000.0)))
+  (define-fun x () Real
+    (/ 398771.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 117047.0 200000.0)))
+  (define-fun x () Real
+    (/ 576243.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 106139.0 200000.0)))
+  (define-fun x () Real
+    (/ 260453.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 272607.0 500000.0)))
+  (define-fun x () Real
+    (/ 260889.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 440717.0 1000000.0)))
+  (define-fun x () Real
+    (/ 220007.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 691799.0 1000000.0)))
+  (define-fun x () Real
+    (/ 684251.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 418571.0 1000000.0)))
+  (define-fun x () Real
+    (/ 6094.0 15625.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 254639.0 500000.0)))
+  (define-fun x () Real
+    (/ 44629.0 100000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 368439.0 1000000.0)))
+  (define-fun x () Real
+    (/ 82241.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 219059.0 500000.0)))
+  (define-fun x () Real
+    (/ 21281.0 50000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 27299.0 50000.0)))
+  (define-fun x () Real
+    (/ 10339.0 20000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 439569.0 1000000.0)))
+  (define-fun x () Real
+    (/ 208399.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 126699.0 250000.0)))
+  (define-fun x () Real
+    (/ 463913.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 394823.0 1000000.0)))
+  (define-fun x () Real
+    (/ 379861.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 269241.0 500000.0)))
+  (define-fun x () Real
+    (/ 51027.0 100000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 422541.0 1000000.0)))
+  (define-fun x () Real
+    (/ 421491.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 668889.0 1000000.0)))
+  (define-fun x () Real
+    (/ 66839.0 100000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 69301.0 100000.0)))
+  (define-fun x () Real
+    (/ 338239.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 115397.0 250000.0)))
+  (define-fun x () Real
+    (/ 11283.0 25000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 67837.0 125000.0)))
+  (define-fun x () Real
+    (/ 264279.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 495141.0 1000000.0)))
+  (define-fun x () Real
+    (/ 244537.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 579991.0 1000000.0)))
+  (define-fun x () Real
+    (/ 562009.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 92497.0 200000.0)))
+  (define-fun x () Real
+    (/ 18423.0 40000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 638781.0 1000000.0)))
+  (define-fun x () Real
+    (/ 317409.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 74019.0 125000.0)))
+  (define-fun x () Real
+    (/ 573523.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 489009.0 1000000.0)))
+  (define-fun x () Real
+    (/ 113767.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 208773.0 500000.0)))
+  (define-fun x () Real
+    (/ 205791.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 115657.0 200000.0)))
+  (define-fun x () Real
+    (/ 8969.0 15625.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 597941.0 1000000.0)))
+  (define-fun x () Real
+    (/ 23011.0 40000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 441519.0 1000000.0)))
+  (define-fun x () Real
+    (/ 216949.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 282097.0 500000.0)))
+  (define-fun x () Real
+    (/ 553739.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 529593.0 1000000.0)))
+  (define-fun x () Real
+    (/ 31977.0 62500.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 242719.0 500000.0)))
+  (define-fun x () Real
+    (/ 234647.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 49221.0 100000.0)))
+  (define-fun x () Real
+    (/ 486903.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 71643.0 125000.0)))
+  (define-fun x () Real
+    (/ 142851.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 535009.0 1000000.0)))
+  (define-fun x () Real
+    (/ 133283.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 15803.0 25000.0)))
+  (define-fun x () Real
+    (/ 39249.0 62500.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 75361.0 125000.0)))
+  (define-fun x () Real
+    (/ 571437.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 81607.0 200000.0)))
+  (define-fun x () Real
+    (/ 198071.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 529191.0 1000000.0)))
+  (define-fun x () Real
+    (/ 52619.0 100000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 606267.0 1000000.0)))
+  (define-fun x () Real
+    (/ 150623.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 23263.0 40000.0)))
+  (define-fun x () Real
+    (/ 72511.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 80017.0 125000.0)))
+  (define-fun x () Real
+    (/ 635443.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 613257.0 1000000.0)))
+  (define-fun x () Real
+    (/ 56213.0 100000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 336443.0 1000000.0)))
+  (define-fun x () Real
+    (/ 66197.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 29739.0 50000.0)))
+  (define-fun x () Real
+    (/ 148037.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 614373.0 1000000.0)))
+  (define-fun x () Real
+    (/ 603173.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 102329.0 200000.0)))
+  (define-fun x () Real
+    (/ 124693.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 6573.0 12500.0)))
+  (define-fun x () Real
+    (/ 251103.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 482039.0 1000000.0)))
+  (define-fun x () Real
+    (/ 442841.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 429353.0 1000000.0)))
+  (define-fun x () Real
+    (/ 396699.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 487511.0 1000000.0)))
+  (define-fun x () Real
+    (/ 429851.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 372673.0 1000000.0)))
+  (define-fun x () Real
+    (/ 69431.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 234901.0 500000.0)))
+  (define-fun x () Real
+    (/ 468083.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 649139.0 1000000.0)))
+  (define-fun x () Real
+    (/ 639439.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 522349.0 1000000.0)))
+  (define-fun x () Real
+    (/ 506321.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 483841.0 1000000.0)))
+  (define-fun x () Real
+    (/ 481139.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 311687.0 500000.0)))
+  (define-fun x () Real
+    (/ 613637.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 103363.0 200000.0)))
+  (define-fun x () Real
+    (/ 509363.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 548423.0 1000000.0)))
+  (define-fun x () Real
+    (/ 544517.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 19439.0 31250.0)))
+  (define-fun x () Real
+    (/ 584341.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 385733.0 1000000.0)))
+  (define-fun x () Real
+    (/ 369883.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 128103.0 250000.0)))
+  (define-fun x () Real
+    (/ 507301.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 51203.0 100000.0)))
+  (define-fun x () Real
+    (/ 490083.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 453721.0 1000000.0)))
+  (define-fun x () Real
+    (/ 226503.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 688433.0 1000000.0)))
+  (define-fun x () Real
+    (/ 170559.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 707.0 1250.0)))
+  (define-fun x () Real
+    (/ 537051.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 437323.0 1000000.0)))
+  (define-fun x () Real
+    (/ 16589.0 40000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 241121.0 500000.0)))
+  (define-fun x () Real
+    (/ 93023.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 66809.0 125000.0)))
+  (define-fun x () Real
+    (/ 482159.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 355177.0 1000000.0)))
+  (define-fun x () Real
+    (/ 86849.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 71957.0 125000.0)))
+  (define-fun x () Real
+    (/ 113239.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 531503.0 1000000.0)))
+  (define-fun x () Real
+    (/ 518147.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 291389.0 500000.0)))
+  (define-fun x () Real
+    (/ 495863.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 5499.0 20000.0)))
+  (define-fun x () Real
+    (/ 5173.0 20000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 53369.0 100000.0)))
+  (define-fun x () Real
+    (/ 264697.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 30399.0 50000.0)))
+  (define-fun x () Real
+    (/ 580019.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 221921.0 500000.0)))
+  (define-fun x () Real
+    (/ 204441.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 4309.0 10000.0)))
+  (define-fun x () Real
+    (/ 13093.0 31250.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 13119.0 25000.0)))
+  (define-fun x () Real
+    (/ 260979.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 38019.0 62500.0)))
+  (define-fun x () Real
+    (/ 7587.0 12500.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 163259.0 250000.0)))
+  (define-fun x () Real
+    (/ 127599.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 233593.0 500000.0)))
+  (define-fun x () Real
+    (/ 46647.0 100000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 350819.0 500000.0)))
+  (define-fun x () Real
+    (/ 170201.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 452209.0 1000000.0)))
+  (define-fun x () Real
+    (/ 10643.0 25000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 478403.0 1000000.0)))
+  (define-fun x () Real
+    (/ 44629.0 100000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 429123.0 1000000.0)))
+  (define-fun x () Real
+    (/ 420153.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 289901.0 500000.0)))
+  (define-fun x () Real
+    (/ 8499.0 15625.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 99939.0 250000.0)))
+  (define-fun x () Real
+    (/ 192531.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 259203.0 500000.0)))
+  (define-fun x () Real
+    (/ 510799.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 138991.0 250000.0)))
+  (define-fun x () Real
+    (/ 542779.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 310437.0 500000.0)))
+  (define-fun x () Real
+    (/ 117521.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 58811.0 125000.0)))
+  (define-fun x () Real
+    (/ 385787.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 383209.0 1000000.0)))
+  (define-fun x () Real
+    (/ 298971.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 85917.0 250000.0)))
+  (define-fun x () Real
+    (/ 66197.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 272459.0 500000.0)))
+  (define-fun x () Real
+    (/ 533397.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 515089.0 1000000.0)))
+  (define-fun x () Real
+    (/ 126599.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 555901.0 1000000.0)))
+  (define-fun x () Real
+    (/ 106653.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 448281.0 1000000.0)))
+  (define-fun x () Real
+    (/ 441627.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 145319.0 250000.0)))
+  (define-fun x () Real
+    (/ 562191.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 234163.0 500000.0)))
+  (define-fun x () Real
+    (/ 90897.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 6429.0 12500.0)))
+  (define-fun x () Real
+    (/ 125821.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 266449.0 500000.0)))
+  (define-fun x () Real
+    (/ 51459.0 100000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 129769.0 250000.0)))
+  (define-fun x () Real
+    (/ 233447.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 181777.0 1000000.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 3576.0 15625.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 52071.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 45727.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 618713.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 73923.0 125000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 4529.0 40000.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 55423.0 62500.0)))
+  (define-fun x () Real
+    (- (/ 441147.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 40871.0 1000000.0)))
+  (define-fun x () Real
+    (/ 9333.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 33931.0 125000.0)))
+  (define-fun x () Real
+    (/ 9333.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 672901.0 1000000.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 98461.0 125000.0)))
+  (define-fun x () Real
+    (- (/ 352449.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 24221.0 40000.0)))
+  (define-fun x () Real
+    (- (/ 599559.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 219941.0 250000.0)))
+  (define-fun x () Real
+    (/ 822191.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 35877.0 62500.0)))
+  (define-fun x () Real
+    (- (/ 167611.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 486479.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 60523.0 62500.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 973001.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 88837.0 125000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 416897.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 308141.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 15333.0 20000.0)))
+  (define-fun x () Real
+    (- (/ 677207.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 161471.0 250000.0)))
+  (define-fun x () Real
+    (- (/ 124817.0 200000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 234947.0 1000000.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 15601.0 125000.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 156233.0 250000.0)))
+  (define-fun x () Real
+    (/ 602407.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 244929.0 500000.0)))
+  (define-fun x () Real
+    (/ 429851.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 373581.0 1000000.0)))
+  (define-fun x () Real
+    (/ 170581.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 229439.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 40073.0 125000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 391841.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 40073.0 125000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 781853.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 40073.0 125000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 901.0 3125.0)))
+  (define-fun x () Real
+    (/ 5099.0 20000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 655369.0 1000000.0)))
+  (define-fun x () Real
+    (/ 295887.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 304307.0 500000.0)))
+  (define-fun x () Real
+    (/ 388119.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 619349.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 50417.0 125000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 136269.0 250000.0)))
+  (define-fun x () Real
+    (- (/ 77227.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 82753.0 100000.0)))
+  (define-fun x () Real
+    (- (/ 45571.0 62500.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 371741.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 212031.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 170009.0 200000.0)))
+  (define-fun x () Real
+    (/ 25433.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 790627.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 50417.0 125000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 403839.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 676767.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 123429.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 224381.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 430397.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 103701.0 250000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 208817.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 40159.0 100000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 309401.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 287883.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 144483.0 250000.0)))
+  (define-fun x () Real
+    (- (/ 287883.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 75287.0 125000.0)))
+  (define-fun x () Real
+    (- (/ 283897.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 12079.0 40000.0)))
+  (define-fun x () Real
+    (/ 137927.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 2399.0 40000.0)))
+  (define-fun x () Real
+    (/ 25989.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 103777.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 23911.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 31301.0 125000.0)))
+  (define-fun x () Real
+    (- (/ 9527.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 29299.0 50000.0)))
+  (define-fun x () Real
+    (/ 125069.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 65181.0 500000.0)))
+  (define-fun x () Real
+    (/ 95043.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 332691.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 214037.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 131051.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 37803.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 67973.0 100000.0)))
+  (define-fun x () Real
+    (- (/ 655477.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 465273.0 500000.0)))
+  (define-fun x () Real
+    (/ 89071.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 465419.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 15703.0 50000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 235369.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 96053.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 55587.0 200000.0)))
+  (define-fun x () Real
+    (- (/ 96053.0 500000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 528661.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 24787.0 62500.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 137611.0 250000.0)))
+  (define-fun x () Real
+    (/ 439337.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 190653.0 250000.0)))
+  (define-fun x () Real
+    (/ 130671.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 181647.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 41131.0 125000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 959437.0 1000000.0)))
+  (define-fun x () Real
+    (/ 935731.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 291919.0 500000.0)))
+  (define-fun x () Real
+    (- (/ 103177.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    (- (/ 181.0 3125.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 110491.0 200000.0)))
+  (define-fun x () Real
+    (/ 273679.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 615051.0 1000000.0)))
+  (define-fun x () Real
+    (/ 56657.0 100000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 105219.0 250000.0)))
+  (define-fun x () Real
+    (/ 67597.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 10197.0 31250.0)))
+  (define-fun x () Real
+    (/ 79831.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 146699.0 250000.0)))
+  (define-fun x () Real
+    (/ 578373.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 547219.0 1000000.0)))
+  (define-fun x () Real
+    (/ 525853.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 25469.0 100000.0)))
+  (define-fun x () Real
+    (- (/ 182633.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 950601.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 944259.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 210991.0 1000000.0)))
+  (define-fun x () Real
+    (/ 123319.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 24743.0 50000.0)))
+  (define-fun x () Real
+    (/ 457961.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 403807.0 1000000.0)))
+  (define-fun x () Real
+    (/ 400677.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 615471.0 1000000.0)))
+  (define-fun x () Real
+    (/ 615083.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 175347.0 250000.0)))
+  (define-fun x () Real
+    (/ 691103.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 558633.0 1000000.0)))
+  (define-fun x () Real
+    (/ 494683.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 429737.0 500000.0)))
+  (define-fun x () Real
+    (/ 393421.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 518987.0 1000000.0)))
+  (define-fun x () Real
+    (/ 20733.0 40000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 345813.0 500000.0)))
+  (define-fun x () Real
+    (/ 679033.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 52991.0 100000.0)))
+  (define-fun x () Real
+    (/ 95557.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 150849.0 250000.0)))
+  (define-fun x () Real
+    (/ 287041.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 43783.0 100000.0)))
+  (define-fun x () Real
+    (/ 202153.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 58811.0 125000.0)))
+  (define-fun x () Real
+    (/ 424991.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 194339.0 500000.0)))
+  (define-fun x () Real
+    (/ 381849.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 285621.0 500000.0)))
+  (define-fun x () Real
+    (/ 113889.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 169301.0 250000.0)))
+  (define-fun x () Real
+    (/ 626631.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 328759.0 1000000.0)))
+  (define-fun x () Real
+    (/ 79441.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 77361.0 500000.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 20293.0 250000.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 20293.0 250000.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 14383.0 31250.0)))
+  (define-fun x () Real
+    (- (/ 18981.0 62500.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 841417.0 1000000.0)))
+  (define-fun x () Real
+    (- (/ 315847.0 1000000.0)))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 552557.0 1000000.0)))
+  (define-fun x () Real
+    (/ 105041.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 47069.0 100000.0)))
+  (define-fun x () Real
+    (/ 422069.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 192631.0 500000.0)))
+  (define-fun x () Real
+    (/ 373647.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 570571.0 1000000.0)))
+  (define-fun x () Real
+    (/ 16629.0 31250.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 76019.0 200000.0)))
+  (define-fun x () Real
+    (/ 378509.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 687599.0 1000000.0)))
+  (define-fun x () Real
+    (/ 81707.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 485437.0 500000.0)))
+  (define-fun x () Real
+    (/ 902373.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 331889.0 1000000.0)))
+  (define-fun x () Real
+    (/ 155441.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 267693.0 500000.0)))
+  (define-fun x () Real
+    (/ 494859.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 96777.0 250000.0)))
+  (define-fun x () Real
+    (/ 94991.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 606369.0 1000000.0)))
+  (define-fun x () Real
+    (/ 70833.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 188851.0 500000.0)))
+  (define-fun x () Real
+    (/ 366599.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 94087.0 200000.0)))
+  (define-fun x () Real
+    (/ 232371.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 588057.0 1000000.0)))
+  (define-fun x () Real
+    (/ 142409.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 466501.0 1000000.0)))
+  (define-fun x () Real
+    (/ 456863.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 543579.0 1000000.0)))
+  (define-fun x () Real
+    (/ 33291.0 62500.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 531569.0 1000000.0)))
+  (define-fun x () Real
+    (/ 255513.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 833.0 1600.0)))
+  (define-fun x () Real
+    (/ 227963.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 163089.0 500000.0)))
+  (define-fun x () Real
+    (/ 160977.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 62601.0 100000.0)))
+  (define-fun x () Real
+    (/ 304513.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 58233.0 125000.0)))
+  (define-fun x () Real
+    (/ 229377.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 311611.0 500000.0)))
+  (define-fun x () Real
+    (/ 555047.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 318011.0 1000000.0)))
+  (define-fun x () Real
+    (/ 17863.0 62500.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 92643.0 200000.0)))
+  (define-fun x () Real
+    (/ 460223.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 309727.0 500000.0)))
+  (define-fun x () Real
+    (/ 30513.0 50000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 521637.0 1000000.0)))
+  (define-fun x () Real
+    (/ 51459.0 100000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 552451.0 1000000.0)))
+  (define-fun x () Real
+    (/ 547919.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 57531.0 100000.0)))
+  (define-fun x () Real
+    (/ 287173.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 335931.0 500000.0)))
+  (define-fun x () Real
+    (/ 328503.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 31453.0 62500.0)))
+  (define-fun x () Real
+    (/ 14529.0 31250.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 1.0 2.0)))
+  (define-fun x () Real
+    0.0)
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 12659.0 20000.0)))
+  (define-fun x () Real
+    (/ 622387.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 252401.0 500000.0)))
+  (define-fun x () Real
+    (/ 501253.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 125461.0 200000.0)))
+  (define-fun x () Real
+    (/ 297649.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 398259.0 1000000.0)))
+  (define-fun x () Real
+    (/ 24327.0 62500.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 139779.0 250000.0)))
+  (define-fun x () Real
+    (/ 548539.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 256657.0 500000.0)))
+  (define-fun x () Real
+    (/ 102281.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 64521.0 100000.0)))
+  (define-fun x () Real
+    (/ 629361.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 471139.0 1000000.0)))
+  (define-fun x () Real
+    (/ 462573.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 27287.0 50000.0)))
+  (define-fun x () Real
+    (/ 54081.0 100000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 577369.0 1000000.0)))
+  (define-fun x () Real
+    (/ 113921.0 200000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 537483.0 1000000.0)))
+  (define-fun x () Real
+    (/ 533371.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 295769.0 500000.0)))
+  (define-fun x () Real
+    (/ 291177.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 539439.0 1000000.0)))
+  (define-fun x () Real
+    (/ 64797.0 125000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 464231.0 1000000.0)))
+  (define-fun x () Real
+    (/ 112999.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 287627.0 500000.0)))
+  (define-fun x () Real
+    (/ 51421.0 100000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 84561.0 250000.0)))
+  (define-fun x () Real
+    (/ 157599.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 124977.0 250000.0)))
+  (define-fun x () Real
+    (/ 485663.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 132679.0 250000.0)))
+  (define-fun x () Real
+    (/ 123859.0 250000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 100829.0 250000.0)))
+  (define-fun x () Real
+    (/ 397719.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 593719.0 1000000.0)))
+  (define-fun x () Real
+    (/ 290113.0 500000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 523471.0 1000000.0)))
+  (define-fun x () Real
+    (/ 485359.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 80243.0 200000.0)))
+  (define-fun x () Real
+    (/ 390199.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 109447.0 200000.0)))
+  (define-fun x () Real
+    (/ 533291.0 1000000.0))
+)
+sat
+(
+  (define-fun y () Real
+    (- (/ 507251.0 1000000.0)))
+  (define-fun x () Real
+    (/ 489579.0 1000000.0))
+)

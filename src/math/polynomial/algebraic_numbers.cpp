@@ -2592,7 +2592,6 @@ namespace algebraic_numbers {
             }
         }
 
-        // TODO: 无理数和有理数 -> numeral
         void int_lt(numeral const & a, numeral & b) {
             scoped_mpz v(qm());
             if (a.is_basic()) {

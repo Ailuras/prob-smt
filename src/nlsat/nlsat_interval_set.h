@@ -19,6 +19,8 @@ Revision History:
 #pragma once
 
 #include "nlsat/nlsat_types.h"
+#include <random>
+#include <ctime>
 
 namespace nlsat {
 
@@ -29,10 +31,17 @@ namespace nlsat {
         rational       m_exp;
         rational       m_var;
         random_gen     m_rand;
+        std::mt19937 gen;
+        std::uniform_int_distribution<> dis;
         const double PI=3.1415926;
         const int RANDOM_PRECISION=10000;
-        distribution(var index, unsigned type, rational exp, rational var);
-        void set_seed(unsigned s) { m_rand.set_seed(s); }
+        distribution(var index, unsigned type, rational exp, rational var, unsigned ti);
+        void set_seed(unsigned s) {
+         gen.seed(s);
+         std::uniform_int_distribution<>::param_type new_params(0, 10000);
+         dis.param(new_params);
+        }
+      //   void set_seed(unsigned s) { m_rand.set_seed(s); }
       //   void set_seed(random_gen rand) { m_rand = rand; }
         double rand_GD(double i, double j);
         double rand_UD(double i, double j);
@@ -44,11 +53,13 @@ namespace nlsat {
         void sample(anum_manager & m_am, anum & w);
         void sample(anum_manager & m_am, anum & w, anum lower, anum upper);
         void sample(anum_manager & m_am, anum & w, bool has_low, anum bound);
+        void sample(anum_manager & m_am, anum & w, anum lower, anum upper, double rand);
+        void sample(anum_manager & m_am, anum & w, bool has_low, anum bound, double rand);
         double get_prob(anum_manager & m_am, anum point);
         double get_prob(anum_manager & m_am, anum lower, anum upper);
         double get_prob(anum_manager & m_am, bool has_low, anum upper);
         double to_double(anum_manager & m_am, anum input);
-        char const* to_char(double input);
+        std::string to_char(double input);
     };
 
     class interval_set;
@@ -135,7 +146,6 @@ namespace nlsat {
            
            \pre !is_full(s)
         */
-		// void peek_in_complement(interval_set const * s, bool is_int, anum & w);
         void peek_in_complement(interval_set const * s, bool is_int, anum & w, bool randomize);
         void peek_in_complement(interval_set const * s, bool is_int, anum & w, distribution& distribution);
     };

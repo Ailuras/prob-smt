@@ -185,6 +185,7 @@ void mpq_manager<SYNCH>::set(mpq & a, char const * val) {
     _scoped_numeral<mpz_manager<SYNCH>> tmp(*this);
     set(_zten, 10);
     char const * str = val;
+    // TRACE("mpq_set", tout << val << "\n";);
     bool sign = false;
     while (str[0] == ' ') ++str;
     if (str[0] == '-') 
@@ -216,6 +217,7 @@ void mpq_manager<SYNCH>::set(mpq & a, char const * val) {
                 }
                 ++str;
             }
+            // TRACE("mpq_set", tout << "[after] a: " << to_string(a) << "\n";);
         }
         unsigned long long exp = 0;
         bool exp_sign = false;

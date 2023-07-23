@@ -1,0 +1,7 @@
+./run_times.sh: line 6: 3951655 Segmentation fault      (core dumped) ../build/z3 $file >> $file.log
+./run_times.sh: line 6: 3951999 Segmentation fault      (core dumped) ../build/z3 $file >> $file.log
+./run_times.sh: line 6: 3952150 Segmentation fault      (core dumped) ../build/z3 $file >> $file.log
+./run_times.sh: line 6: 3952490 Segmentation fault      (core dumped) ../build/z3 $file >> $file.log
+./run_times.sh: line 6: 3952519 Segmentation fault      (core dumped) ../build/z3 $file >> $file.log
+./run_times.sh: line 6: 3952696 Segmentation fault      (core dumped) ../build/z3 $file >> $file.log
+./run_times.sh: line 6: 3952821 Segmentation fault      (core dumped) ../build/z3 $file >> $file.log

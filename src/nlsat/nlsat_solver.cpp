@@ -269,7 +269,8 @@ namespace nlsat {
             //     TRACE("hr", tout << "internal: " << i << "<------>" << "external: " << m_perm[i] << "\n";);
             // }
 
-            m_distribution_UD = new distribution(m_perm.size(), 2, rational(0, 1), rational(1000, 1));
+            unsigned ti = (unsigned)time(NULL);
+            m_distribution_UD = new distribution(m_perm.size(), 2, rational(0, 1), rational(1000, 1), ti);
 
             std::fstream f;
             f.open(".extract", std::ios::in);
@@ -286,10 +287,11 @@ namespace nlsat {
                 else if (dst == "UD") type = 2;
                 rational r_exp = rational(exp.c_str());
                 rational r_var = rational(variable.c_str());
-                m_distribution.push_back(distribution(index, type, r_exp, r_var));
+                m_distribution.push_back(distribution(index, type, r_exp, r_var, ti));
                 distribution* temp = &m_distribution[m_distribution.size()-1];
                 m_distribution_map.insert(index, temp);
                 index = (index+1)%m_perm.size();
+                ti += 1;
             }
             f.close();
             std::string file_name = ".extract";
@@ -1502,27 +1504,30 @@ namespace nlsat {
         void select_witness() {
             scoped_anum w(m_am);
             SASSERT(!m_ism.is_full(m_infeasible[m_xk]));
-            // distribution* distribution;
+            distribution* distribution;
+            
             // for (unsigned i=0; i<m_distribution_map.size(); i++) {
             //     TRACE("hr", tout<< "m_perm[" << m_xk << "]: " << m_perm[m_xk] << "\n";);
             //     TRACE("hr", tout<< "m_distribution_map(" << i << "): " << m_distribution_map.find(m_perm[m_xk], distribution) << "\n";);
             // }
-            // if (m_distribution_map.find(m_perm[m_xk], distribution)) {
-            //     m_ism.peek_in_complement(m_infeasible[m_xk], m_is_int[m_xk], w, *distribution);
-            // } else {
-            //     m_ism.peek_in_complement(m_infeasible[m_xk], m_is_int[m_xk], w, m_randomize);
-            // }
+            // TRACE("nlsat", tout << "infeasible intervals: "; m_ism.display(tout, m_infeasible[m_xk]); tout << "\n";);
             
-            TRACE("nlsat", tout << "infeasible intervals: "; m_ism.display(tout, m_infeasible[m_xk]); tout << "\n";);
+            if (m_distribution_map.find(m_perm[m_xk], distribution)) {
+                TRACE("hr", tout<< "type: " << m_distribution_map.find(m_perm[m_xk], distribution)  << "\n";);
+                m_ism.peek_in_complement(m_infeasible[m_xk], m_is_int[m_xk], w, *distribution);
+            } else {
+                TRACE("hr", tout<< "type: " << m_distribution_map.find(m_perm[m_xk], distribution)  << "\n";);
+                m_ism.peek_in_complement(m_infeasible[m_xk], m_is_int[m_xk], w, m_randomize);
+            }
 
-            // m_ism.peek_in_complement(m_infeasible[m_xk], m_is_int[m_xk], w);
-            m_ism.peek_in_complement(m_infeasible[m_xk], m_is_int[m_xk], w, *m_distribution_UD);
+            // m_ism.peek_in_complement(m_infeasible[m_xk], m_is_int[m_xk], w, *m_distribution_UD);
             // m_ism.peek_in_complement(m_infeasible[m_xk], m_is_int[m_xk], w, m_randomize);
 
             TRACE("nlsat", 
                   tout << "infeasible intervals: "; m_ism.display(tout, m_infeasible[m_xk]); tout << "\n";
                   tout << "assigning "; m_display_var(tout, m_xk) << "(x" << m_xk << ") -> " << w << "\n";);
             TRACE("nlsat_root", tout << "value as root object: "; m_am.display_root(tout, w); tout << "\n";);
+
             if (!m_am.is_rational(w))
                 m_irrational_assignments++;
             m_assignment.set_core(m_xk, w);
